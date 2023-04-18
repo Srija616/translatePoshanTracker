@@ -1,0 +1,9 @@
+selenium 
+webdriver_manager
+indic-nlp-library
+Fasttext-langdetect
+mosestokenizer
+wget
+transformers
+sentencepiece
+sacrebleu
