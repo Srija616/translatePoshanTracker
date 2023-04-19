@@ -1,0 +1,604 @@
+data,language
+You need to enable JavaScript to run this app.,en
+Poshan Helpline:,en
+JanAndolan,en
+ABHA (Health ID),en
+Language,en
+English,en
+About,en
+Resources,en
+Vaccination Schedule,en
+Dashboard,en
+Mission Utkarsh,en
+Helpdesk,en
+Beneficiary Redressal,en
+State Helpdesk,en
+Poshan Calculator,en
+ Previous,en
+ Next,en
+Anganwadi Workers,en
+Download Mobile App from Play Store,en
+Scan the QR Code to Download the App,en
+What’s New on Poshan Tracker,en
+Poshan Tracker adds new application features,en
+Poshan Tracker adds new Reports feature,en
+Poshan Tracker adds new Resources on Website,en
+Resources for growth monitoring and general awareness,en
+Growth monitoring charts,en
+New beneficiary addition with skip OTP option,en
+Mobile number need to be validated within a week,en
+Anganwadi Worker profile page,en
+Stunting and Underweight Growth Parameters,en
+Beneficiaries status change notifications,en
+Migrated from one category to another,en
+Beneficiary record becoming inactive,en
+Beneficiary migration from one AWC to another AWC,en
+Beneficiary deletion by AWW,en
+Default language selection,en
+"Beneficiary concerns accessibility to AWW, along with status update once resolved",en
+Growth monitoring report for all health indicators,en
+Application downloaded status by AWW,en
+Beneficiary count report : Number of records becoming inactive and number of records migrating from one category to another,en
+Poshan Calculator is designed to measure growth of the child based on standards defined by World Health Organization (WHO).,en
+How to use Poshan Calculator?,en
+Select Gender,en
+Enter Date of Birth,en
+Enter Height in centimeter,en
+Enter Weight in kilogram,en
+Click on Show Results,en
+Gender ,en
+Boy,en
+Girl,en
+Date of Birth ,en
+*Height should be between 38 to 150,en
+Weight (KG) ,en
+*Weight should be between 0.90 to 58,en
+Show Results,en
+ABHA (Health ID) and its Benefits,en
+ABHA (earlier known as Health ID) is an acronym for Ayushman Bharat Health Account.,en
+Using ABHA (Health ID) is the first step towards creating safer and efficient digital health records for you and your family.,en
+"It enables your interaction with participating healthcare providers, and allows you to receive your digital lab reports, prescriptions and diagnosis seamlessly from verified healthcare professionals and health service providers.",en
+Know More,en
+Frequently Asked Questions,en
+Take Home Ration,en
+Hot Cooked Meal,en
+What is Poshan Abhiyaan?,en
+"Poshan Abhiyaan is India’s flagship programme to improve nutritional outcomes for children, adolescents, pregnant women and lactating mothers by leveraging technology, a targeted approach and convergence.",en
+What is the purpose of Launching Poshan Tracker?,en
+"The purpose of POSHAN Tracker application is to provide a 360-degree view of the activities of the Anganwadi Centre (AWC), service deliveries of Anganwadi Workers (AWWs) and complete beneficiary management for pregnant women, lactating mothers and children.",en
+"The proposed system should enable real-time monitoring and tracking of all AWCs, AWWs and beneficiaries on the defined indicators.",en
+How can one Download Poshan Tracker App?,en
+Poshan Tracker App is available over Google playstore ,en
+https://play. google. com/store/apps/details?,en
+ id=com. poshantracker,en
+Is poshan trackers app available over Apple I Store also?,en
+"No, Poshan Tracker is available only for Android version",en
+What is the minimum requirement to install Poshan Tracker App in mobile?,en
+Poshan Tracker App can only be installed in Android Phone with Android version 6.0 and above.,en
+View All FAQs,en
+Can a beneficiary register directly using application.,en
+Currently a beneficiary can register by the help of an AWW,en
+Who is a beneficiary?,en
+There are 6 categories for beneficiaries,en
+Pregnant Women,en
+Lactating Mother,en
+Children from 0 to 6 months,en
+Children from 6 months to 3 years,en
+Children from 3 years to 6 years,en
+Adolescent girls,en
+Can a beneficiary change his/her AWC?,en
+An AWW can use ‘Migrate Beneficiary’ option to migrate a beneficiary from one AWC to another AWC basis their Aadhaar number.,en
+What is the eligibility of a beneficiary?,en
+A beneficiary is eligible for THR for at least 21 days in a month.,en
+Who is eligible for Take Home Ration?,en
+"Pregnant Women, Lactating Mothers, Children from 6 months to 3 years and adolescent girls.",en
+Where can I enquire about take home ration?,en
+Please contact your respective Anganwadi worker.,en
+Who is eligible for additional supplementary food.,en
+Children who are identified as deficit on nutrition are eligible for additional food supplements.,en
+A beneficiary is eligible for HCM for at least 21 days in a month.,en
+Who is eligible for Hot Cooked Meal?,en
+Children in the age group of 3 years to 6 years,en
+Where can I enquire about Hot Cooked Meal?,en
+Please contact your respective Anganwadi Centre.,en
+Who is eligible for additional supplementary food?,en
+We are now available on Video Conference,en
+State Video Conference,en
+Monday to Friday ,en
+4:15 PM to 5:15 PM,en
+Join Now,en
+Anganwadi Worker Training,en
+3:00 PM to 4:00 PM,en
+Support,en
+in,en
+Download Mobile App,en
+Powered By,en
+Terms of Service,en
+Privacy Policy,en
+Careers,en
+Copyright@2023  Poshan Tracker.,en
+All rights reserved,en
+ You need to enable JavaScript to run this app.,en
+About Poshan Tracker,en
+Poshan Tracker App,en
+"The ‘Poshan Tracker’ is a mobile based application rolled out by the Ministry of Women and Child Development, Government of India on 1st March 2021 through National e-Governance Division (NeGD), Poshan Tracker is an important governance tool.",en
+"Technology under Poshan Tracker is being leveraged for dynamic identification of stunting, wasting, under-weight prevalence among children and last mile tracking of nutrition service delivery.",en
+The Poshan Tracker is a job-aid to the Anganwadi worker for efficient delivery of services along with reflection of their efforts.,en
+It is a critical and beneficiary-centric service delivery Application under POSHAN Abhiyaan which will promote real time data with analytics.,en
+Services availed by,en
+Beneficiaries at Anaganwadi Center,en
+Morning Snacks,en
+Nutrition and,en
+ Health checkup,en
+WHAT ARE,en
+Poshan Tracker Features,en
+Real time recording and Monitoring,en
+The Poshan Tracker enables real-time monitoring and tracking of all AWCs and beneficiaries on defined indicators.,en
+It is built using centralized data architecture that also aligns with the digital technology systems of other ministries and programs.,en
+"The objective is to provide a 360-degree view of the activities of the Anganwadi Centre (AWC), service deliveries of Anganwadi Workers (AWWs) and complete beneficiary management for pregnant women, lactating mothers and children.",en
+The public dashboard helps to impart transparency on services delivered to beneficiaries.,en
+Services Delivered,en
+Tracking of services to the end beneficiary at a click of a button.,en
+"Services like Take Home Ration (THR) and Hot cooked Meal (HCM), vaccination for Infants and Pregnant Women.",en
+Growth Measurement,en
+Children of different age groups are monitored on monthly basis by AWWs.,en
+"Health indicators like Stunting, Wasting and Underweight prevalence are measured as per WHO standards.",en
+Regular growth monitoring helps AWWs to provide relevant and timely assistance to children.,en
+Home Visit Alerts,en
+The Poshan Tracker generates automated alerts to the critical last-mile beneficiaries.,en
+It also ensures efficient audit of the delivery system by documenting real time attendance of beneficiaries and duty bearers.,en
+"This management information system will help the nutrition programme to scale efficiently, thereby generating and documenting positive impact.",en
+Learning Videos,en
+How to take care of weak newborn with the help of Kangaroo Mother Care,en
+Preventing illnesses to avert Malnutrition and Death,en
+Prevention of Anemia in children and adolescents girls,en
+Birth Preparedness- For Institutional and Home Delivery,en
+Care of the weak newborn baby - How many weak babies are we missing?,en
+Feeding During Illness,en
+Preparation During Pregnancy - For NewBorn Care & Family Planning,en
+Ensuring Exclusive Breastfeeding,en
+Assessment of growth in children,en
+Preventing anemia in women,en
+Complementary Feeding - Diet Diversity,en
+Identification and care of a Weak Newborn baby,en
+Observing Breastfeeding In Newborn Babies,en
+Planning And Organising Community Based Events At AWC,en
+Making or Updating Home Visit Planner and Initiating home visits,en
+Ensuring that complementary feeding improves over time,en
+How to ensure timely initiation of complementary feeding,en
+Identifying and preventing Severe Acute Malnutrition,en
+Identification & Referral of Sick Newborn,en
+Supporting mothers with issues in Breastfeeding,en
+Why this Monthly Meeting?,en
+Awareness,en
+GENERAL ,en
+Pregnant Women ,en
+Lactating Mothers ,en
+General,en
+General Awareness about Home Visit Scheduler,en
+Download PDF,en
+General Awareness about Growth Monitoring of Children,en
+General Awareness about preventing illness in Children,en
+General Awareness for Pregnancy,en
+General Awareness on Module,en
+General Awareness on Anaemia,en
+General Awareness on SAM and MAM,en
+General Awareness on Mother Care,en
+General Awareness on the Delivery of the child,en
+Awareness for Pregnancy in Preventing Anemia,en
+Lactating Mothers,en
+Awareness for Lactating Mother Complimentary Feeding for Children,en
+Awareness to Lactating Mother,en
+Child Care,en
+"Awareness for Children Stunting, Wasting to prevent malnutrition in children",en
+Growth Monitoring Assessment Charts,en
+Stunted Assessment Parameters,en
+Wasted Assessment Parameters,en
+Underweight Assessment Parameters,en
+Poshan Tracker Process Flow,en
+Circulars/Notifications,en
+03 June,en
+Clarification regarding Cost of Smart phones,en
+24 May,en
+Uploading of Data of Anganwadi Services Schemes in Poshan Tracker,en
+01 March,en
+Data Plan for Mobile Application,en
+02 February,en
+Specifications of Smart phone and Technical Compatibility Testing,en
+Training on ICT Platform under POSHAN Abhiyaan,en
+New Poshan Tracker App - CSC-SPV Nodal Person,en
+13 January,en
+New Poshan Tracker App,en
+Birth,en
+Bacillus Calmette Guerin (BCG),en
+Oral Polio Vaccine (OPV)-0 dose ,en
+Weeks,en
+Rotavirus Vaccine (RVV)-1,en
+Fractional dose of Inactivated Polio Vaccine (fIPV)-1,en
+Pneumococcal Conjugate Vaccine (PCV) -1,en
+10 ,en
+Pentavalent-2,en
+Pentavalent-3,en
+fIPV-2T,en
+PCV-2,en
+Months,en
+Measles Containing vaccine (MCV)/Measles & Rubella (MR)-1,en
+Japanese Encephalitis(JE)-1**,en
+Measles Containing vaccine (MCV)/MR-2,en
+JE-2**,en
+OPV –Booster,en
+Years,en
+DPT-Booster-2,en
+"Td1, 2 or Td Booster***",en
+India,en
+Select State,en
+Select District,en
+Last Updated On : 18/04/2023,en
+General Information,en
+*State level aggregated data as received from States,en
+Owned Building,en
+AWC Infrastructure,en
+Functional Toilet,en
+Drinking Water Source,en
+Anganwadi Center Details,en
+Report for Mar 2023,en
+Eligible Beneficiaries,en
+As on 31st Mar 2023,en
+Aspirational Districts & North East Region,en
+Adolescent Girls,en
+Total,en
+Aadhaar Verified,en
+Take Home Ration (THR),en
+Given For Atleast 21 Days,en
+Key Services,en
+* Data on dashboard is provisional and subject to reconciliation of offline data sync from Poshan Tracker Mobile App,en
+Login to your account,en
+User Name ,en
+Password ,en
+OPEN A NEW TICKET,en
+CHECK TICKET STATUS,en
+Create a New Ticket,en
+Please fill in the form below to create a new ticket.,en
+Anganwadi Worker will reach out to you within 48 hours. . Beneficiary Category ,en
+Select a Beneficiary Category,en
+Children (0-6 months),en
+Children (6 months - 3 years),en
+Children (3 - 6 years),en
+Query Related to ,en
+Select Query Related to,en
+AWW/AWC,en
+Supervisor,en
+Help Topic ,en
+Select a Help Topic,en
+Description ,en
+Select a Description,en
+Mobile Number ,en
+Email,en
+Having difficulty raising ticket?,en
+Poshan Helpline,en
+By District,en
+State ,en
+District ,en
+Project ,en
+Select Project,en
+Sector ,en
+Select Sector,en
+Anganwadi Center ,en
+Select An Anganwadi center,en
+Create Ticket,en
+Can App be accessed without internet?,en
+"App can be accessed offline, currently daily tracking feature is available for offline data entry.",en
+Offline mode can store latest 3 days data.,en
+Who are the target userbase of Poshan Tracker App?,en
+"Poshan Tracker App is meant for Aanganwadi workers, Anganwadi centers to enter beneficiaries data in the forms.",en
+It is not at all developed for general public.,en
+How to Login in Poshan Tracker App?,en
+AWWs are requested to enter their mobile numbers in the Login screen.,en
+"An OTP will be sent to your registered mobile number, post which you are required too set your MPIN.",en
+What is  MPIN?,en
+MPIN is a 4 digits passcode which is set by an Anganwadi worker while registering over the Poshan Tracker App.,en
+How to set MPIN?,en
+MPIN can be set by respective Anganwadi worker by requesting an OTP against his/her mobile number.,en
+"If Mobile number is already present in the database, the respective Anganwadi person will receive 4 digits OTP on registered mobile number.",en
+"Post entering the OTP, AWW can easily set customized MPIN.",en
+When and how to use MPIN?,en
+"While login to the Poshan Tracker App, AWWs are required to enter the MPIN set by them.",en
+This MPIN will act as a passcode to run the Poshan Tracker App and entering the information in the beneficiaries forms.,en
+How to Reset MPIN?,en
+MPIN can be easily reset by any AWW/AWC user.,en
+"You are required to click on Forgot MPIN, and enter your registered mobile number.",en
+You will receive and OTP on your registered mobile number and you can ealily reset your MPIN,en
+In How many languages the Poshan Tracker App is available?,en
+Poshan Tracker App is available in 22 different languages,en
+The various languages available are:,en
+Gujarati,en
+Punjabi,en
+Marathi,en
+Bangla,en
+Kannada,en
+Tamil,en
+Telugu,en
+Malyalam,en
+Assamese,en
+Nepali,en
+Sindhi,en
+Maithili,en
+Manipuri,en
+Santhali,en
+Urdu,en
+Kashmiri,en
+In how many languages AWW can enter the data while filling up the form?,en
+There are limited fields for data entry.,en
+Name is required to be entered in English language and for other fields numeric values are required.,en
+Most of the features are provided in check boxes or with drop down selection menu.,en
+Reports to be updated.,en
+How many different forms are there in Poshan Tracker App?,en
+There are 7 different types of forms for beneficiaries.,en
+This includes:,en
+Lactating mother,en
+Pregnant women,en
+Child 0-6 Months,en
+Child 6 Months to 3 Years,en
+Child  3 Years to 6 Years,en
+Adolescent Girls (11 Years-19 Years),en
+What information to be added in AWC forms?,en
+AWW are required to enter details related to infrastructure present in a particular Anganwadi centre.,en
+"This includes structure, basic amenities, facilities, sanitization, drinking water etc.",en
+How AWWS can sign up on the app if they are unable to register via their mobile numbers?,en
+In case AWW is unsuccessful in registering themselves there might be 2 possibilities:,en
+Their mobile number is not present in the data provided by the states to the MoWCD,en
+They are newly added to the system and their mobile number is not yet provided by the state cell to the MoWCD.,en
+In both the above cases state nodal officers are empowered to add/ edit/Activate/Deactivate any of the AWW.,en
+How can one access Poshan Tracker Dashboard?,en
+Poshan Tracker Dashboard can be accessed by signing onto the dashboard.,en
+Dashboard can be accessed by clicking the link ,en
+https://poshantracker.,en
+in/admin,en
+" Only nominated Nodal level officials at National, State, District, Project and Sector level are provided with a unique credentials to access the dashboard.",en
+How one can add AWW/AWCs?,en
+AWW/AWCs can only be added by nodal level official.,en
+Anybody in the above rank in the hierarchy.,en
+How many different types of reports can be generated over Poshan Tracker Dashboard?,en
+There are various reports that can be generated from,en
+General Reports:,en
+Number of app  downloads,en
+Total number of Anganwadi centers registered,en
+Total number of beneficiaries registered (National/state/district/block wise),en
+Total Number of pregnant women registered(National/state/district/block wise),en
+Total Number of  lactating mothers registered(National/state/district/block wise),en
+Total Number of children (0-6months) registered(National/state/district/block wise),en
+Total Number of children (6months-3years) registered(National/state/district/ block wise),en
+Total Number of children (3-6years) registered(National/state/district/ block wise),en
+Maternal and child nutrition:,en
+How many beneficiaries got THR in 21 days,en
+How many children breastfed exclusively in the first hour after delivery,en
+How many lactating mothers are given HCM,en
+Average level of calcium in children aged 3-6 years,en
+Average level of iron in children aged 3-6years,en
+"Total number of vaccinations administered per month (block, district, state, national level)",en
+Vaccinations specific report administered per month (BCG/OPV/Hepatitis B/Rotavirus/Polio/Pneumococcal/Pentavalent,en
+AWC infrastructure:,en
+"Number of AWCs (block, district, state, national level)",en
+"Total number of Balvatikas (block district, state, national level)",en
+"Total number of AWCs (block, district, state, national level) with clean drinking water",en
+"Total number of AWCs (block, district, state, national level) with working weighing scale",en
+"Total number of AWCs (block, district, state, national level) with electricity",en
+Total number of AWCs that are government owned,en
+Total number of AWCs that are privately owned,en
+How to contact Poshan Tracker Team?,en
+Poshan Tracker Team can be contacted by sending emails at support-poshantrackr@gov. in. For handholding and support we are also available over Video Conference each day 4:15 PM to 5:15 PM.,en
+What is Poshan Calculator,en
+Poshan Calculator helps to identify various health conditions of the child as per World Health Organization (WHO) standards.,en
+WHO standards are :,en
+Stunting ( Height for Age)- ,en
+0 months to 6 years,en
+Severely Stunted,en
+Moderately stunted,en
+Normal,en
+Underweight (Weight for Age)- ,en
+Severely Underweight,en
+Moderately Underweight,en
+Wasting (Weight for Height)- ,en
+0 months to 5 years,en
+Severely Wasted (SAM),en
+Moderately Wasted (MAM),en
+Overweight,en
+Above standards are defined as per given above mentioned age brackets,en
+About Reference tables,en
+The WHO Multicentre Growth Reference Study (MGRS) was undertakenbetween 1997 and 2003 to generate new growth curves for assessing the growth and development of infants and young children around the world.,en
+"The MGRS collected primary growth data and related information from approximately 8500 children from widely different ethnic backgrounds and cultural settings (Brazil, Ghana, India, Norway, Oman and the USA).",en
+The new growth curves are expected to provide a single international standard that represents the best description of physiological growth for all children from birth to five years of age and to establish the breastfed infant as the normative model for growth and development.,en
+How to revive your Health?,en
+How to revive your health if you are Severely Wasted (SAM),en
+How to revive your health if you are Moderately Wasted (MAM),en
+How to revive your health if you are Underweight,en
+Check Ticket Status,en
+Please provide your mobile number and a ticket number.,en
+Mobile ,en
+Ticket Number ,en
+View Ticket,en
+"If this is your first time contacting us or you've lost the ticket number, please ",en
+open a new ticket,en
+Welcome!,en
+The following are the Terms of Service (“Terms”) that govern your use of the Poshan Tracker Platform hosted at ,en
+", and all associated sites linked to it, its subsidiaries, and affiliates (collectively, the “Site”). I. OWNERSHIP",en
+"The Site and all data, text, designs, pages, print screens, images, artwork, photographs, audio and video clips, HTML code, source code, or software that reside or are viewable or otherwise discoverable on the Site, and all participants booked from the Site, (collectively, termed as the “Content”) are owned by Ministry of Women and Child Development and their authorised service providers.",en
+ II. CONSENT,en
+"Our Privacy Policy, Open API Policy and any other policies, rules or guidelines that may be applicable to particular offers or features on the Site are incorporated in these Terms.",en
+"By visiting or using the Site, you expressly agree to these Terms, as updated from time to time.",en
+"If you do not agree with any part of these terms, do not use the site.",en
+You may not use the Site in any manner and may not accept the Terms if you are not of legal age to form a binding contract. III. NOTICE REGARDING FUTURE CHANGES TO TERMS:,en
+"We reserve the unconditional right to change, modify, add, or remove any part of these Terms at any time, without specifically notifying you of such changes.",en
+Any changes or updates will be effective immediately.,en
+You take the responsibility to check these Terms of Use periodically for changes.,en
+Your continued use of the platform post such revision shall constitute acceptance of the modified Terms. IV. ACCOUNT REGISTRATION,en
+You may browse the Site without registering for an account.,en
+"You will be required to register for an account with your mobile number, if you intent to use certain features or services offered by the Site.",en
+"By acceptance of these Terms, you expressly agree to authorize us to use your identity information (including Aadhaar details) and also of all the other members registered in your account.",en
+You are solely responsible for maintaining the confidentiality of your personal information and registration and all activities that might result from you failing from keeping this information secure.,en
+Your registration or mobile number shall be kept confidential,en
+You undertake that:,en
+You have obtained consent from the concerned individuals for creating their records through your account.,en
+Your account or mobile number shall not include the name of another person with the intent to impersonate that person.,en
+You shall not use another user's account without their permission.,en
+"You shall immediately notify us in writing, if you discover any unauthorized use of your account or other account-related security breach.",en
+"If we receive a complaint that your account violates someone else's rights, or violates our policies we may cancel or block your account.",en
+"You shall not attempt to conceal your identity by using multiple Internet Protocol addresses or mobile no, or by any other means, to register participants on the Site",en
+ACCESS PERMISSIONS,en
+You will only access (or attempt to access) the Site by the means described in the Documentation and will comply with the terms and conditions of this Agreement.,en
+"You will comply with all Central and State laws, rules and regulations applicable to you and your use of the Site and affecting any third-party rights. VI. ACCESS RESTRICTIONS",en
+"You shall not, either on your own or through any other person:",en
+Restrict or inhibit any other person from using the Site,en
+Use the Site for any unlawful purpose,en
+"Express or imply that any statements you make are endorsed by us, without our prior written consent",en
+"Impersonate any person or entity, whether actual or fictitious",en
+Engage in spamming or flooding,en
+Harvest or collect information about Site users,en
+Open multiple accounts for yourself or any other individual using multiple mobile numbers,en
+"Submit any software or other materials that contain any viruses, worms, Trojan horses, defects, date bombs, time bombs or other items of destructive nature",en
+"Manipulate identifiers, including by forging headers, in order to disguise the origin of any posting that you submit",en
+Link to any portion of the Site other than the URL assigned to the home page of the Site,en
+“Frame” or “Mirror” any part of the Site,en
+"Modify, adapt, sub-license, translate, sell, reverse engineer, decompile or disassemble any portion of the Site, or otherwise attempt to derive any source code or underlying ideas or algorithms of any part of the Content",en
+"Remove any copyright, trademark or other proprietary rights notices contained on the Site",en
+"Use any computer program, bot, robot, spider, offline reader, site search/retrieval application or other manual or automatic device, tool, or process to retrieve, index, data mine, or in any way reproduce or circumvent the security structure, navigational structure, or presentation of the Content or the Site, including with respect to any CAPTCHA displayed on the Site.",en
+Use any automated software or computer system to search for or book appointment including sending information from your computer to another computer where such software or system is active,en
+Take any action that imposes or may impose (in our sole discretion) an unreasonable or disproportionately large load on our infrastructure.,en
+"Use the Site or Reproduce, modify, display, publicly perform, distribute or create derivative works of the Site or the Content",en
+"The Content in an attempt to, or in conjunction with, any device, program or service designed to circumvent any technological measure that effectively controls access to, or the rights in, the Site and/or Content in any way including, without limitation, by manual Decode, decrypt, modify, or reverse engineer certificate or underlying algorithms or automatic device or process, for any purpose",en
+"You will not use bot technology to search for registering participants through the Site; for the avoidance of doubt, this specifically prohibits you from using automated script based or automated software on the Site, and prohibits you from circumventing any security measure, access control system, or other technological control or measure on the Site that is used to enforce participation limits or to maintain the integrity of registering participants rules associated with one mobile number",en
+We own the intellectual property rights in the Site and Content.,en
+We may change the Content and features of the Site at any time.,en
+"The registered and unregistered trademarks, logos, and service marks displayed on the Site are owned by us or our licensors.",en
+"You may not use our trademarks, logos, and service marks in any way without our prior written permission.",en
+Material featured on this website may be reproduced free of charge.,en
+"However, no part of the Site and no Content may be copied, republished, reproduced, uploaded, posted, displayed publicly, encoded, translated, transmitted or distributed in any way to any other computer, server, Web site or other medium for publication in a derogatory manner or in a misleading context.",en
+"You may use information available on the Site, provided that you will (1) use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media, (2) not make any modifications to any such information and any additional representations or warranties relating to such documents and Content.",en
+"Wherever the material is being published or issued to others, the source must be prominently acknowledged.",en
+"However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. VIII. LIMITATIONS OF MULTI- LINGUAL INTERFACE",en
+Translations on the Poshan Tracker Portal & App Chabot are done by third party translators.,en
+"While the translations are done on a best effort basis, some of the parts may be incorrect.",en
+Certain files and other items on the website cannot be translated.,en
+"In addition, on translation, some applications and/or services may not function as expected, due to language barriers.",en
+"We are working constantly to rectify any errors, omissions, or ambiguities in the translations provided on this portal. IX. LINKS",en
+"The Site may contain links to other websites that may not be owned, maintained, or operated by us.",en
+"The fact that these websites are linked, does not indicate any endorsement of these websites from us, since we do have any control over these websites.",en
+We are not responsible for these websites including any content or the privacy practices of these websites.,en
+We strongly encourage you to familiarize yourself with the terms of use of these websites.,en
+Your use of these websites is at your own risk and peril.,en
+"It is solely up to you to take necessary precautions to ensure that the links you select or any software you may download is free of viruses, worms, Trojan horses, defects, date bombs, time bombs, and other or other computer programming routines which are of destructive nature",en
+ACCESS FROM OUTSIDE INDIA,en
+The Site is directed to the people residing in India.,en
+We do not represent that Content available on or through the Site is appropriate or available in other locations.,en
+We may limit the availability of the Site or any service or product described on the Site to any person or geographic area at any time.,en
+"If you choose to access the Site from outside India, you do so at your own risk. XI. VIOLATION OF THESE TERMS",en
+"We may investigate any violation of these Terms, including unauthorized use of the Site.",en
+We may provide law enforcement with information you provide to us related to your transactions to assist in any investigation or prosecution of you.,en
+We may take legal action that we feel is appropriate.,en
+"If we determine that you have violated these Terms or the law, or for any other reason or for no reason, we may block your account and will prevent you from accessing the Site at any time without notice to you. XII. RE-DISTRIBUTION",en
+Authorized organizations shall not re-distribute any data that they are able to access through the API/ No-code webpage integration and shall ensure that integration of all such data shall compulsorily be limited to the specific services provided by Poshan Tracker.,en
+"Under no circumstances, shall an organization use the data collected as part of the Poshan Abhiyaan of the Government for any purposes other than the purposes specified herein, and as may be permitted by the government. XIII. COMPLIANCE WITH LAW, THIRD PARTY RIGHTS, AND OTHER TERMS OF SERVICE",en
+"The authorized organizations will comply with all applicable laws, regulation, policies and third-party rights (including and without limitation, any laws regarding the import or export of data or software, privacy, and local laws) established by Government of India.",en
+These organizations will not use the APIs/ No-code webpage integration to encourage or promote illegal activity or violation of third-party rights including these Terms with Poshan Tracker. XIV. CORRECTNESS OF DATA PROVIDED BY THIRD PARTY SYSTEMS,en
+"The ASPs collecting data from Poshan Tracker and displaying to users shall be solely responsible for the correctness of such data and any liability arising out of any data so provided, shall completely rest with such third party.",en
+"Any liabilities civil or criminal, arising out of any incorrect data, shall solely lie with the concerned ASP. XV. INDEMNITY AND LIMITATION OF LIABILITY",en
+"You agree to defend, indemnify and hold harmless Poshan Tracker and its affiliates, its officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses including but not limited to attorneys fees relating to any allegation or third-party legal proceeding to the extent arising from:",en
+Your use of and access to the Site and Service;,en
+Your violation of any term of this Agreement;,en
+"Your violation of any third party right, including without limitation, any copyright, property, or privacy right; or",en
+Any claim that your User Content caused damage to a third party.,en
+This defense and indemnification obligation will survive this Agreement and your use of the Service and Website/App. XVI. JURISDICTION,en
+Your use of the Site and any dispute arising out of such use of the Site is subject to the laws of India and place of jurisdiction shall be New Delhi.,en
+20 December 2021,en
+"Poshan Tracker Portal or App is governed by Ministry of Woman and Child Development, Government of India, hereinafter referred to as “MWCD”, “our”, “us”, “we” which shall include a reference to other departments and divisions of the program/campaign.",en
+"References to Poshan Tracker Portal or App in this policy include Poshan Tracker or any other Apps or portals that are integrated with Poshan Tracker through APIs / related sites, apps, communications and services (“Services”) hereinafter collectively referred to as “Poshan Tracker or System.",en
+Our Privacy Policy applies when you use our Services (described below).,en
+"This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how it is used and shared.",en
+The collecting and retaining agency in respect of your information is MWCD.,en
+We are committed to protecting the security of your personal information and safeguarding your privacy.,en
+"Any information or data collected and processed on the System is done in accordance with the provisions of Information Technology Act, 2000 read with its Rules and other national and state laws relating to the collection and processing of personal data.",en
+This Privacy Policy is required to be read in conjunction with the Terms of Service available at ,en
+https://poshantracker. in,en
+. Your access to and use of the System is conditional upon your acceptance of this Privacy Policy and the Terms of Service.,en
+"By accessing and/or using the System, you represent that you have read, understood and are bound by the Terms of Service and this Privacy Policy, and that you consent to your information and data being collected, stored and used in the manner laid out in this Privacy Policy.",en
+You hereby acknowledge that the collection of your information as described in Clause 1 of this Privacy Policy is necessary to fulfil the purposes specified in Clause 2 and 3 of this Privacy Policy.,en
+1. INFORMATION WE COLLECT,en
+1.1. Information you provide to us.,en
+"We collect the content and other information that you provide when you use our Services, including when you sign up for an account.",en
+This can include- (i) Name (ii) Mobile number (iii) Date of Birth (iv)Gender (v) Name of Child (vi) Aadhaar Number (vii) Address,en
+"If you choose not to provide data which is required to provide you with a product or feature, you cannot use that product or feature.",en
+"You may, however, choose not to share personal data where providing the data is optional.",en
+1.2. Information from use of services.,en
+"We log usage data when you visit or otherwise use our Services, including our sites, app and platform technology.",en
+"We may use various technologies to collect and store information, including cookies, local storage, such as browser web storage or application data caches, databases, and server logs to collect and use your information in certain cases.",en
+1.3. Information from third parties.,en
+Our System provides API to Third – Party Sites that may collect your personal information.,en
+Poshan Tracker is not in any manner responsible for the security of such information or their privacy practices or content of those Third – Party Sites.,en
+"Additionally, you may also encounter “cookies” or other similar devices on certain pages of the Third – Party Sites and it is hereby clarified by Poshan Tracker that the System does not control the use of cookies by these Third – Party Sites.",en
+These third-party service providers and Third-Party Sites may have their own privacy policies governing the storage and retention of your information that you may be subject to.,en
+"This Privacy Policy does not govern any information provided to, stored on, or used by these third-party providers and Third-Party Sites.",en
+"We recommend that when you enter a Third-Party Site, you review the Third Party Site’s privacy policy as it relates to safeguarding of your information.",en
+You agree and acknowledge that Poshan Tracker will not be liable for the information published in search results or by any Third-Party Sites.,en
+2. HOW WE USE PERSONAL INFORMATION,en
+We use the information we collect from all our services for the following purposes:,en
+2.1. Deliver our services.,en
+"The information collected under Clause 1, shall be used for the purpose of facilitating the health of the beneficiaries.",en
+"We provide our products, which includes updating, securing, and troubleshooting the information/data/ materials and contents of the System, as well as providing support.",en
+"When you register on Poshan Tracker, the Mobile number with which you registered, will be used to locate your record from the database.",en
+These can also be used to assess the health status as recorded in the Poshan Tracker system.,en
+2.2. Communicate with you.,en
+"We also send SMSs on your registered mobile number to alert you about registration, we also use your information to respond to you when you contact us and to investigate, respond to and resolve complaints and for Service issues (e. g. bugs). 2.3. Verification.",en
+"We use the information we have, to help verify accounts.",en
+The records may be used for verification of health status for the purposes of Poshan Tracker control and response.,en
+2.4. Security and Audit.,en
+"We use your data (including your communications) for security purposes or to prevent or investigate possible fraud or other violations of our Terms of Service and/or attempts to harm our Members, Visitors or others.",en
+"The Poshan Tracker system is regularly audited by auditors engaged by MWCD, for security and scalability of the system.",en
+The records may be used for such audits.,en
+2.5. Research and operational activities.,en
+"We also use the data to operate our services, which includes analyzing our performance, meeting our legal obligations, developing our workforce, and doing research.",en
+We may also use the information to perform certain necessary operation for improvement of the System and for all acts incidental or ancillary to the provision of the System and for developing and providing new technologies and services.,en
+2.6. Surveys and Feedbacks.,en
+The System also takes feedback about system performance and experience.,en
+"Information on name, mobile number, date of registration and health status may be used for these purposes",en
+3. SHARING OF INFORMATION,en
+3.1. Tracking health progress.,en
+"The personal information collected from you at the time of registration under Clause 1 above, will be stored securely and only be used by the Government of India or State Govts for the purpose of tracking health progress and status, generating reports, heat maps and other statistical visualizations for the purpose of the management of Poshan Tracker in the country,.",en
+Your Reference ID (Mobile number) will only be co-related with your personal information in order to communicate to you through SMS as per the clause 1 above.,en
+"We do not disclose or transfer your information to any other third parties without your consent, unless such disclosure or transfer is:",en
+1. Required in order to comply with any applicable law or court order or direction; or,en
+"2. Requested by any appropriate Governmental agency as per applicable law for the purpose of, inter alia, verification of identity, prevention, detection, investigation, prosecution or punishment of any offences or incidents.",en
+3.2. Legal Disclosures.,en
+"We may access, preserve and share your information in response to a legal request, subpoena, or other legal process or if we have a good faith belief that disclosure is reasonably necessary to (1) investigate, prevent or take action regarding fraud or  illegal activities or to assist government enforcement agencies; (2) enforce our agreements with you; (3) investigate and defend ourselves against any third-party claims or allegations; (4) protect the security or integrity of our Services (such as by sharing with companies facing similar threats); or (5) exercise or protect the rights and safety of any person.",en
+4. RETENTION,en
+"All personal information collected from you under Clause 1 at the time of registration will be retained for as long as your record remains in existence and if any medical or administrative interventions have been commenced under Clause 2, subject to Clause4(b) below, for such period thereafter as is required for such interventions to be completed.",en
+"All personal information collected under Clauses 1 will be retained on the application Server, to the extent that such information relates to people who have been registered for the event.",en
+"Nothing set out herein shall apply to the anonymized, aggregated datasets generated by the personal data of registered users of Poshan Tracker or any reports, heat maps or other visualization created using such datasets.",en
+"As a registered user, you have the right to access your profile at any time.",en
+"Although, the changes can only be done as prescribed by the Poshan Tracker system from time to time.",en
+You cannot manage the communications that you receive from us or how you receive them.,en
+6. DATA SECURITY,en
+"Poshan Tracker Platform has reasonable security measures and safeguards in place to protect your privacy and personal information from loss, misuse, unauthorized access, disclosure, destruction, and alteration of the information in compliance with applicable laws.",en
+"Further, whenever you change or access your account on the System or any information relating to it, we offer the use of a secure server.",en
+"It is further clarified that you have, so long as you access and/or use the System (directly or indirectly), the obligation to ensure that you, shall at all times, take adequate physical, managerial, and technical safeguards, at your end, to preserve the integrity and security of your data which shall include and not be limited to your personal information.",en
+7. CHANGES TO PRIVACY POLICY,en
+"Poshan Tracker reserve the unconditional right to change, modify, add, or remove any part of this Privacy Policy at any time, without specifically notifying you of such changes.",en
+You should review this Privacy Policy regularly for changes.,en
+"We will use commercially reasonable efforts to generally notify all users of any material changes to this Privacy Policy, such as through a notice on the System.",en
+"However, as a user of the System, you should regularly check the Privacy Policy for any changes.",en
+"We will also update the “Last Updated” date at the top of this Privacy Policy, which reflects the effective date of this Privacy Policy.",en
+Your continued access or use of the System after the date of the new Privacy Policy constitutes your acceptance of the new Privacy Policy.,en
+"If you do not agree to the new Privacy Policy, you must stop accessing and/or using the System.",en
+"You hereby acknowledge that any collection, storage, processing or other use of your information shall be governed by the Privacy Policy as applicable at the time of such collection, storage, processing or other use.",en
+Careers At Poshan Tracker,en
+We believe in building doers.,en
+Poshan Tracker is a project of Ministry of Women and Child Development.,en
+Digital India Corporation is the technical partner of MoWCD.,en
+Poshan Tracker focuses on eradication of malnutrition from India.,en
+It serves as a mechanism to monitor and improvise on the service delivery under Poshan Abhiyaan.,en
+Job openings,en
+Video Conference,en
+Monday to Friday,en
+Book VC,en
+Get In Touch,en
+"Ministry of Women and Child Development, Government of India, Shastri Bhawan, New Delhi",en
+support-poshantrackr[at]gov[dot]in,en
