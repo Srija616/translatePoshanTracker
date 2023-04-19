@@ -1,7 +1,5 @@
 languages = ['English', 'हिंदी', 'ગુજરાતી', 'મરાઠી', 'ಕನ್ನಡ', 'മലയാളം', 'தமிழ்', 'తెలుగు', 'বাংলা', 'অসমীয়া', 'ਪੰਜਾਬੀ', 'ଓଡ଼ିଆ', 'नेपाली', 'डोगरी', 'कोंकणी',
              'सिंधी', 'बोडो', 'मैथिली', 'মণিপুরী', 'संथाली', 'اردو', 'کٲشُر']
-# languages = ['English', 'हिंदी', 'ગુજરાતી', 'મરાઠી', 'ಕನ್ನಡ', 'മലയാളം', 'தமிழ்', 'తెలుగు']
-# language_codes = ['en', 'hi', 'gu', 'mr', 'kn', 'ml', 'ta', 'te']
 language_codes = ['en', 'hi', 'gu', 'mr', 'kn', 'ml', 'ta', 'te', 'bn', 'as', 'pa', 'or', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni' , 'sat', 'ur', 'ks']
 
 eng_lang =['English', 'Hindi', 'Gujarati', 'Marathi', 'Kannada', 'Malayalam', 'Tamil', 'Telugu', 'Bengali', 'Assamese', 'Punjabi', 'Oriya', 'Nepali', 'Dogri', 'Konkani', 'Sindhi', 'Bodo', 'Maithili', 'Manipuri', 'Santhali', 'Urdu', 'Kashmiri']

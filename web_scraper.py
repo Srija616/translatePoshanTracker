@@ -26,8 +26,6 @@ INDIC = ["as", "bn", "gu", "hi", "kn", "ml", "mr", "or", "pa", "ta", "te"]  # li
 def split_sentences(paragraph, language):
     if language == "en":
         return tokenizeSentencewise(paragraph, language)
-        with MosesSentenceSplitter(language) as splitter:
-            return splitter([paragraph])
     elif language in INDIC:
         return sentence_tokenize.sentence_split(paragraph, lang=language)
     
@@ -56,7 +54,7 @@ def extract_text_data(driver, url, visited_urls, url_main):
         return ""
     visited_urls.add(url)
     driver.get(url)
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     
     soup = BeautifulSoup(driver.page_source, 'lxml')
     text_data = soup.body.get_text("\n")
@@ -64,6 +62,7 @@ def extract_text_data(driver, url, visited_urls, url_main):
     for link in soup.find_all('a'):
         driver.implicitly_wait(5)
         href = link.get('href')
+        driver.implicitly_wait(5)
         try:
             if href.startswith("/"): # only follow internal links to get all data
                 data = extract_text_data(driver, url_main+href[1:], visited_urls, url_main)
@@ -86,27 +85,46 @@ def get_language_driver(language, driver, url):
     Output
     driver: Returns the driver to the website
     '''    
-    driver.get(url)
-    driver.implicitly_wait(10)
-    dropdown = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']") # find the dropdown menu
-    driver.execute_script("arguments[0].style.display = 'block';", dropdown) # bring the dropdown menu on page
-    driver.implicitly_wait(10)
-    dropdown.click() # click the dropdown menu
-    # Wait for the option to be clickable
-    option = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[text()='{}']".format(language)))  # get the option to be clicked
-    )
-    option.click() # click the option, the website in required language will open up.
-    return driver
-    
-    
+    # driver.get(url)
+    # driver.implicitly_wait(10)
+    # dropdown = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']") # find the dropdown menu
+    # driver.execute_script("arguments[0].style.display = 'block';", dropdown) # bring the dropdown menu on page
+    # driver.implicitly_wait(10)
+    # dropdown.click() # click the dropdown menu
+    # # Wait for the option to be clickable
+    # option = WebDriverWait(driver, 10).until(
+    #     EC.element_to_be_clickable((By.XPATH, "//button[text()='{}']".format(language)))  # get the option to be clicked
+    # )
+    # option.click() # click the option, the website in required language will open up.
+    try:
+        response = driver.get(url)
+        driver.implicitly_wait(10)
+        element = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']")
+        driver.execute_script("arguments[0].style.display = 'block';", element)  # bring the element of dropdown-menu visible
+        driver.implicitly_wait(10)
+        button = driver.find_element('xpath',"//button[text()='{}']".format(language))
+        driver.implicitly_wait(10)
+        ActionChains(driver).move_to_element(button).click(button).perform()
+        driver.implicitly_wait(10)
+        return driver
+    except Exception as e:
+        print (e)
+        print (response)
+        return
+        
+        
+     
 def process_language(args):
     lang, language_isocode, url, url_main = args
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging']) # to remove a USB related warning message
     driver = webdriver.Chrome(options=options)
     
-    get_language_driver(lang, driver, url) 
+    try:
+        get_language_driver(lang, driver, url) 
+    except:
+        print ("Unable to get a language driver")
+        return  []
     
     visited_urls = set()
     all_text = extract_text_data(driver, url, visited_urls, url_main) # all_text is a string
@@ -122,7 +140,7 @@ def process_language(args):
         split_text_new = split_text
 
     detected_language = utils.detectLanguage(all_text.replace("\n", ""))
-    print (f"language detection of {language_isocode}, detected as {detected_language}")
+    print (f"language detection of {language_isocode}, detected as {detected_language}, len(split_text) = {len(split_text)}")
     
     if (language_isocode in config.ft_lang_supported): # supported by fastText because we use the detect function
         text_list = utils.removeOtherLanguages(split_text_new, language_isocode)
@@ -157,7 +175,7 @@ def get_all_data(url):
         lang_dict = dict(zip(config.languages, config.language_codes)) # key: language on website, language_codes = iso_code for the language
         languages = [lang_dict[lang] for lang in config.languages] # list of all language codes to be used
 
-        with multiprocessing.Pool(processes=4) as pool:
+        with multiprocessing.Pool(processes=1) as pool:
             data = pool.map(process_language, [(lang, lang_dict[lang], url, url_main) for lang in config.languages]) #get all data from websites.
             # data -> [[data for lang1], [data from lang2], [data from lang3], ...]
             # save data for each indic language separately in the folder 'rawBinaryData' where each file is a csv file

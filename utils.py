@@ -20,7 +20,9 @@ def removeOtherLanguages(text_list, language):
         return []
     for line in text_list:
         try:
-            if detect(line)['lang'] == language:
+            detected_lang = detect(line)['lang'] == language
+            # the below condition helps in better scraping of data since the language detection is not 100% accurate for sindhi, maithili and oriya
+            if detected_lang or (language in ['sd', 'mai'] and detected_lang == 'hi') or (language == 'or' and detected_lang== 'bn'):
                 final_data.append(line) 
         except:
             continue
@@ -32,7 +34,6 @@ def cleanData(text_list):
     # can be optimized using pandas df
     for i in text_list:
         if i.isnumeric() or len(i) <2:
-            print ("i", i)
             continue
         else:
             final_data.append(i)
