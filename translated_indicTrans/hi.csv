@@ -1,0 +1,192 @@
+en,hi,translated
+ABHA (Health ID),ABHA (स्वास्थ्य पहचान पत्र),ABHA (Health ID Card)
+Language,भाषा,Language (s)
+About,के बारे में,About% s% s
+Resources,स्रोत,Source (s)
+Vaccination Schedule,टीकाकरण सूची,Immunization List
+Dashboard,डैशबोर्ड,Dashboard
+Helpdesk,हेल्पडेस्क,Help Desk
+Beneficiary Redressal,लाभार्थी निवारण/उपाय,Beneficiary Prevention / Remedies
+State Helpdesk,राज्य सहायता केंद्र,State Support Centres
+FAQ,अक्सर पूछे जाने वाले प्रश्न,Frequently Asked Questions
+Poshan Calculator,पोषण कैल्कुलेटर/ मापक,Nutrition Calculator / Mapping
+Login,लॉगिन,% s Login% s
+Anganwadi Workers,आँगनवाड़ी कार्यकर्ता,Anganwari Workers
+Download Mobile App from Play Store,प्ले स्टोर से मोबाइल एप्प डाउनलोड करें,Download the app from the Play Store
+Scan the QR Code to Download the App,एप्प को डाउनलोड करने के लिए QR कोड को स्कैन करें,Scan the QR code to download the app
+What’s New on Poshan Tracker,पोषण ट्रैकर में नया क्या है,What is new in nutrition tracker
+Poshan Tracker adds new application features,पोषण ट्रैकर ने नई एप्लिकेशन फीचर जोड़ा है,POSHAN tracker adds new application feature
+Poshan Tracker adds new Reports feature,पोषण ट्रैकर ने नई रिकॉर्ड फीचर जोड़ा है,POSHAN tracker adds new record feature
+Poshan Tracker adds new Resources on Website,पोषण ट्रैकर ने वेबसाइट सुविधा पर नई संसाधन जोड़ा है,POSHAN tracker has added new resources on the website facility
+Resources for growth monitoring and general awareness,विकास निगरानी और सामान्य जागरूकता के लिए संसाधन,Resources for Development Monitoring and General Awareness
+Growth monitoring charts,विकास पर्यवेक्षण चार्ट,Development Supervision Chart
+New beneficiary addition with skip OTP option,स्किप ओटीपी विकल्प के साथ नई  लाभार्थी संयोजन,New beneficiary combination with skip OTP option
+Mobile number need to be validated within a week,मोबाइल नंबर को एक सप्ताह के अंदर सत्यापित करने की आवश्यकता है,The mobile number needs to be verified within a week
+Anganwadi Worker profile page,आंगनवाड़ी कार्यकर्ता प्रोफाइल पेज,Anganwadi Workers Profile Page
+Stunting and Underweight Growth Parameters,बौनापन और सामान्य से कम वजन के विकास मानक,Dwarfism and underweight development parameters
+Beneficiaries status change notifications,लाभार्थियों की स्थिति परिवर्तन सूचनाएं,Status Change Notifications of Beneficiaries
+Migrated from one category to another,एक श्रेणी से दूसरी श्रेणी में स्थानांतरण,Transfer from one category to another
+Beneficiary record becoming inactive,निष्क्रिय हो रहा लाभार्थी का रिकॉर्ड,Record of Inactive Beneficiary
+Beneficiary migration from one AWC to another AWC,एक AWC से दूसरे AWC में लाभार्थी का स्थानांतरण,Transfer of beneficiary from one AWC to another AWC
+Beneficiary deletion by AWW,AWW द्वारा लाभार्थी का विलोपन,Deletion of beneficiary by AWW
+Default language selection,डिफ़ॉल्ट भाषा चयन,Default Language Selection
+"Beneficiary concerns accessibility to AWW, along with status update once resolved","लाभार्थी AWW चिंता अभिगम्यता, एक बार हल हो जाने पर स्थिति अपडेट के साथ","Beneficiary AWW anxiety accessibility, with status update once resolved"
+Growth monitoring report for all health indicators,सभी स्वास्थ्य संकेतकों के लिए विकास निगरानी रिपोर्ट,Development Monitoring Report for all Health Indicators
+Application downloaded status by AWW,आंगनवाड़ी कार्यकर्ता द्वारा एप्लीकेशन डाउनलोड की स्थिति,Status of application download by Anganwadi Worker
+Beneficiary count report : Number of records becoming inactive and number of records migrating from one category to another,लाभार्थी गणना रिपोर्ट : निष्क्रिय होने वाले रिकॉर्डों  की संख्या और एक श्रेणी से दूसरी श्रेणी में जाने वाले रिकॉर्डों  की संख्या,Beneficiary Census Report: Number of records of inactivation and number of records going from one category to another category
+Poshan Calculator is designed to measure growth of the child based on standards defined by World Health Organization (WHO).,विश्व स्वास्थ्य संगठन द्वारा परिभाषित मानकों के आधार पर बच्चों के विकास को मापने के लिए पोषण मापक का निर्माण किया गया।.,Nutritional measurement was developed to measure the development of children on the basis of standards defined by the World Health Organization.
+How to use Poshan Calculator?,पोषण मापक का उपयोग कैसे करें?,How to use a nutrition meter?
+Select Gender,लिंग का चयन करें,Select Sex
+Enter Date of Birth,जन्म तिथि दर्ज करें,Enter Date of Birth
+Enter Height in centimeter,सेंटीमीटर में ऊँचाई दर्ज करें,Enter the height in centimeters
+Enter Weight in kilogram,किलोग्राम में वजन दर्ज करें,Weigh in Kgs
+Click on Show Results,परिणाम दिखाएँ पर क्लिक करें,Click on Show Result
+Gender ,लिंग ,sex activity
+*,*,* (*) (*
+Boy,लड़का,boy's
+Girl,लड़की,girl child
+Date of Birth ,जन्म तिथि ,Date of birth
+Height (CM) ,ऊँचाई (सें.मी.) ,Height (cm)
+*Height should be between 38 to 150,*ऊँचाई 38 सँ 150 केर बीच होयबाक चाही,Height between 38th and 150th Kerr
+CM,सें.मी.,Cm.m
+Weight (KG) ,वजन (कि.ग्रा.) ,Weight (kg)
+*Weight should be between 0.90 to 58,*वजन 0.90 सँ 58 केर बीच होयबाक चाही,Weighed 0.90 to 58 Kg
+KG,कि.ग्रा.,Kg / m
+Show Results,परिणाम सभ देखाउ,Result All Views
+ABHA (Health ID) and its Benefits,ABHA (स्वास्थ्य पहचान पत्र) और इसके लाभ,ABHA (Health ID Card) and its benefits
+ABHA (earlier known as Health ID) is an acronym for Ayushman Bharat Health Account.,ABHA (पहले स्वास्थ्य पहचान पत्र के नाम से जाना जाता था) आयुष्मान भारत का संक्षिप्त रूप है।,ABHA (formerly known as Health ID Card) is an acronym for Ayushman Bharat.
+Using ABHA (Health ID) is the first step towards creating safer and efficient digital health records for you and your family.,ABHA के उपयोग द्वारा आपके और आपके परिवार के लिए (स्वास्थ्य पहचान पत्र) सुरक्षित और सक्षम डिजिटल स्वास्थ्य और अभिलेखों को संरक्षित करने की दिशा में उठाया गया पहला कदम है।,The use of ABHA is the first step towards preserving safe and efficient digital health and records for you and your family.
+"It enables your interaction with participating healthcare providers, and allows you to receive your digital lab reports, prescriptions and diagnosis seamlessly from verified healthcare professionals and health service providers.","यह आपके स्वास्थ्य प्रदाता के साथ आपको व्यवहार्य कुशल बनाता है, और आपको सत्यापित स्वास्थ्य पेशवरों और स्वास्थ्य प्रदाताओं से मूल रूप से डिजिटल स्वास्थ्य अभिलेखों, पर्चियों एवं निदानों को प्राप्त करने की अनुमति प्रदान करता है।","It makes you practically efficient with your health provider, and allows you to get basically digital health records, slips and diagnostics from verified health professionals and health providers."
+Know More,अधिक जानें,Learn more
+×,×,e - mail
+Frequently Asked Questions,अक्सर पूछे जाने वाले प्रश्न,Frequently Asked Questions
+ALL,सभी,All of them
+BENEFICIARY REGISTRATION,लाभार्थी का पंजीकरण,Beneficiary Registration
+Take Home Ration,घर ले जाने वाला राशन,Home Ration
+Hot Cooked Meal,हॉट कूक्ड मील,Hot Cooked Meal
+What is Poshan Abhiyaan?,पोषण अभियान क्या है?,What is POSHAN Abhiyaan?
+"Poshan Abhiyaan is India’s flagship programme to improve nutritional outcomes for children, adolescents, pregnant women and lactating mothers by leveraging technology, a targeted approach and convergence.","पोषण अभियान, एक लक्षित दृष्टिकोण और अभिसरण द्वारा बच्चों, किशोरों, गर्भवती महिलाओं और स्तनपान कराने वाली माताओं के लिए पोषण संबंधी परिणामों में सुधार करने के लिए भारत का प्रमुख कार्यक्रम है।","POSHAN Abhiyaan is India's flagship programme to improve nutritional outcomes for children, adolescents, pregnant women and lactating mothers through a targeted approach and convergence."
+What is the purpose of Launching Poshan Tracker?,पोषण ट्रैकर लॉन्च करने का उद्देश्य क्या है?,What is the purpose of launching POSHAN Tracker?
+"The purpose of POSHAN Tracker application is to provide a 360-degree view of the activities of the Anganwadi Centre (AWC), service deliveries of Anganwadi Workers (AWWs) and complete beneficiary management for pregnant women, lactating mothers and children. The proposed system should enable real-time monitoring and tracking of all AWCs, AWWs and beneficiaries on the defined indicators.","पोषण ट्रैकर एप्लिकेशन का उद्देश्य आंगनवाड़ी केंद्र (एडब्ल्यूसी), आंगनवाड़ी कर्मचारी (एडब्ल्यूडब्ल्यू) की सेवा प्रदान करने वाली गतिविधियों और गर्भवती महिलाओं, स्तनपान कराने वाली माताओं और बच्चों के लिए पूर्ण लाभार्थी प्रबंधन की गतिविधियों का 360 डिग्री दृश्य प्रदान करना है। प्रस्तावित प्रणाली को सभी एडब्ल्यूसी, एडब्ल्यू डब्ल्यू और लाभार्थियों को परिभाषित संकेतक पर वास्तविक समय की निगरानी और समझना सक्षम करना चाहिए।","The objective of the POSHAN Tracker application is to provide 360 degree view of the service delivery activities of the Anganwadi Centres (AWCs), Anganwadi Workers (AWWs) and full beneficiary management activities for pregnant women, lactating mothers and children.The proposed system should enable real time monitoring and understanding of all AWCs, AWWs and beneficiaries on defined indicators."
+How can one Download Poshan Tracker App?,पोषण ट्रैकर ऐप को कैसे डाउनलोड किया जा सकता है?,How to download the POSHAN Tracker App?
+Poshan Tracker App is available over Google playstore ,पोषण ट्रैकर ऐप गूगल प्ले स्टोर ,POSHAN TRACKER App on Google Play Store
+Is poshan trackers app available over Apple I Store also?, पर उपलब्ध है।,available on.
+"No, Poshan Tracker is available only for Android version",कोई पोषण ट्रैकर केवल एंड्रॉइड संस्करण के लिए उपलब्ध नहीं है।,No nutrition tracker is available for Android version only.
+What is the minimum requirement to install Poshan Tracker App in mobile?,मोबाइल में पोषण ट्रैकर ऐप इंस्टॉल करने के लिए न्यूनतम आवश्यकता क्या है?,What is the minimum requirement to install the POSHAN Tracker App in mobile?
+Poshan Tracker App can only be installed in Android Phone with Android version 6.0 and above.,पोषण ट्रैकर ऐप केवल एंड्रॉइड फोन में एंड्रॉइड संस्करण 6.0 और इसके बाद के संस्करण में स्थापित किया जा सकता है।,The POSHAN Tracker app can be installed only on Android phones with version 6.0 and above.
+View All FAQs,सभी FAQs देखें,View all FAQs
+Can a beneficiary register directly using application.,क्या कोई लाभार्थी आवेदन के उपयोग द्वारा सीधे पंजीकरण कर सकता है।,Can a beneficiary register directly using the application?
+Currently a beneficiary can register by the help of an AWW,"वर्तमान में, एक लाभार्थी आँगनवाड़ी कार्यकर्ता की सहायता से पंजीकरण करा सकता है","At present, a beneficiary can register with the help of an anganwadi worker"
+Who is a beneficiary?,लाभार्थी कौन है?,Who is the beneficiary?
+There are 6 categories for beneficiaries,यहाँ लाभार्थियों की 6 श्रेणियाँ हैं,There are 6 categories of beneficiaries
+Pregnant Women,गर्भवती महिला,pregnant women
+Lactating Mother,स्तनपान कराने वाली माता,Breastfeeding mother
+Children from 0 to 6 months,0-6 माह तक के बच्चे,Children of 0-6 months age
+Children from 6 months to 3 years,6 माह - 3 वर्ष तक के बच्चे,Children upto 6 months - 3 years
+Children from 3 years to 6 years,6 वर्ष - 3 वर्ष तक के बच्चे,Children upto 6 years - 3 years
+Adolescent girls,किशोरी लड़कियाँ/बालिकाएँ,Adolescent Girls / Girls
+Can a beneficiary change his/her AWC?,क्या कोई लाभार्थी अपना आँगनवाड़ी केंद्र परिवर्तित कर सकता है?,Can a beneficiary change his Anganwadi Centre?
+An AWW can use ‘Migrate Beneficiary’ option to migrate a beneficiary from one AWC to another AWC basis their Aadhaar number.,एक आँगनवाड़ी कार्यकर्ता अपनी आधार संख्या के आधार पर किसी लाभार्थी को एक आँगनवाड़ी केंद्र से दूसरे आँगनवाड़ी केंद्र में स्थानांतरित करने के लिए 'माइग्रेट लाभार्थी' के विकल्प का उपयोग कर सकता है।,An Anganwadi worker can use the option of Migrate Beneficiary to transfer a beneficiary from one Anganwadi Centre to another based on his Aadhaar number.
+What is the eligibility of a beneficiary?,लाभार्थी की पात्रता क्या है?,What is the eligibility of the beneficiary?
+A beneficiary is eligible for THR for at least 21 days in a month.,एक लाभार्थी महीने में कम से कम 21 दिनों के लिए THR के लिए पात्र है।,A beneficiary is eligible for THR for at least 21 days in a month.
+Who is eligible for Take Home Ration?,टेक होम राशन के लिए कौन पात्र है?,Who is eligible for Take Home Ration?
+"Pregnant Women, Lactating Mothers, Children from 6 months to 3 years and adolescent girls.","गर्भवती महिलाएँ, स्तनपान कराने वाली माताएँ, 6 महीने से 3 वर्ष तक के बच्चे और किशोर लड़कियाँ।","Pregnant women, lactating mothers, children in the age group of 6 months to 3 years and adolescent girls."
+Where can I enquire about take home ration?,मैं टेक होम राशन के बारे में कहाँ पूछ सकता हूँ?,Where can I ask about Take Home Ration?
+Please contact your respective Anganwadi worker.,"कृपया, अपने संबंधित आँगनवाड़ी कार्यकर्ता से संपर्क करें।",Please contact your concerned Anganwadi worker.
+Who is eligible for additional supplementary food.,अतिरिक्त पूरक भोजन के लिए कौन पात्र है।,Who is eligible for additional supplementary food.
+Children who are identified as deficit on nutrition are eligible for additional food supplements.,पोषण की कमी वाले बच्चों के रूप में पहचाना जाने वाले बच्चे अतिरिक्त पूरक आहार के लिए पात्र हैं।,Children identified as malnourished children are eligible for additional supplementary diet.
+A beneficiary is eligible for HCM for at least 21 days in a month.,एक लाभार्थी महीने में कम से कम 21 दिनों के लिए HCM के लिए पात्र है।,A beneficiary is eligible for HCM for at least 21 days in a month.
+Who is eligible for Hot Cooked Meal?,गर्म पके हुए भोजन के लिए कौन पात्र है?,Who is eligible for hot cooked food?
+Children in the age group of 3 years to 6 years,3-6 वर्ष तक की आयु वाले बच्चे,Children in the age group of 3-6 years
+Where can I enquire about Hot Cooked Meal?,मैं गर्म पके हुए भोजन के बारे में कहाँ से पूछताछ कर सकता हूँ?,Where can I ask about hot cooked food?
+Please contact your respective Anganwadi Centre.,"कृपया, अपने संबंधित आँगनवाड़ी केंद्र से संपर्क करें।",Please contact your respective Anganwadi Centre.
+Who is eligible for additional supplementary food?,अतिरिक्त पूरक आहार के लिए कौन पात्र है?,Who is eligible for additional supplementary diet?
+We are now available on Video Conference,अब हम वीडियो कॉन्फ्रेंस पर उपलब्ध हैं,We are now available through video conference
+State Video Conference,राज्य वीडियो सम्मेलन,State Video Conferences
+Monday to Friday ,सोमवार से शुक्रवार ,Monday to Friday
+Join Now,अभी जुड़ें,Join Now
+Anganwadi Worker Training,आंगनबाडी कार्यकर्ता प्रशिक्षण,Training of Anganwadi Workers
+Support,सहायता,help (a)
+ 14408, 14408,14408 (ii)
+ support-poshantrackr@gov.in, support-poshantrackr@gov.in,Support-Poshantrackr @ gov.in
+Download Mobile App,मोबाइल एप्प डाउनलोड करें,Download the app
+Terms of Service,सेवा की शर्तें,Conditions of Service
+Privacy Policy,गोपनियता नीति,Privacy Policy
+Careers,अवसर,opportunity (a)
+About Poshan Tracker,पोषण ट्रैकर के बारे में,About Nutrition Tracker
+Poshan Tracker App,पोषण ट्रैकर एप्प,Poshan Tracker App
+"The ‘Poshan Tracker’ is a mobile based application rolled out by the Ministry of Women and Child Development, Government of India on 1st March 2021 through National e-Governance Division (NeGD), Poshan Tracker is an important governance tool. Technology under Poshan Tracker is being leveraged for dynamic identification of stunting, wasting, under-weight prevalence among children and last mile tracking of nutrition service delivery.","1 मार्च 2021 को राष्ट्रीय e-शासन विभाग के महिल एवं बाल विकास मंत्रालय, भारत द्वारा सरकार एप्प एक मोबाइल आधारित आवेदन ""पोषण ट्रैकर"" का पदार्पण मेरी सरकार नामक एक महत्वपूर्ण टूल के माध्यम से किया गया। पोषण ट्रैकर के तहत प्रौद्यौगिकी का उपयोग स्टंटिंग, वेस्टिंग, कम वजन वाले बच्चों की पहचान और पोषण सेवा के वितरण को गतिशील पहचान देने में किया जा सकता है।.","POSHAN tracker, a mobile application of the National e-Governance Division (NeGD) of the Ministry of Women and Child Development, Government of India, was launched on 1st March 2021 through an important tool called MyGov."
+The Poshan Tracker is a job-aid to the Anganwadi worker for efficient delivery of services along with reflection of their efforts. It is a critical and beneficiary-centric service delivery Application under POSHAN Abhiyaan which will promote real time data with analytics.,पोषण ट्रैकर को आँगनवाड़ी कार्यकर्ताओं के उत्तम सेवा वितरण के साथ कार्यों के बेहतर प्रदर्शन के लिए प्रदान किया गया है। यह पोषण अभियान के तहत महत्वपूर्ण और लाभार्थी केन्द्रित सेवा वितरण एप्लिकेशन है जो वास्तविक समयावधि के साथ विश्लेषण को भी प्रोत्साहित करेगा।.,POSHAN tracker is an important and beneficiary centric service delivery application under POSHAN Abhiyaan which will also encourage real-time analytics.
+WHAT ARE,क्या हैं,What are
+Poshan Tracker Features,पोषण ट्रैकर की विशेषताएँ,Features of Nutrition Tracker
+Real time recording and Monitoring,वास्तविक समयावधि की रिकॉर्डिंग और निगरानी,Real time recording and monitoring
+"The Poshan Tracker enables real-time monitoring and tracking of all AWCs and beneficiaries on defined indicators. It is built using centralized data architecture that also aligns with the digital technology systems of other ministries and programs. The objective is to provide a 360-degree view of the activities of the Anganwadi Centre (AWC), service deliveries of Anganwadi Workers (AWWs) and complete beneficiary management for pregnant women, lactating mothers and children. The public dashboard helps to impart transparency on services delivered to beneficiaries.","यह पोषण ट्रैकर परिभाषित संकेतकों के आधार पर वास्तविक समयावधि और सभी आँगनवाड़ी कार्यकर्ताओं के साथ-साथ लाभार्थियों की ट्रैकिंग और निगरानी सक्षम बनाता है। इसका निर्माण केंद्रीकृत आँकड़ों के ढाँचों का उपयोग करके किया जाता है जिसमें अन्य मंत्रालय और उनके कार्यक्रम डिजिटल प्रणाली द्वारा एक संरेखित होते हैं। इसका उद्देश आँगनवाड़ी केन्द्रों की गतिविधियों, आँगनवाड़ी कार्यकर्ताओं की सेवा वितरण, और गर्भवती महिलाओं, स्तनपान कराने वाली महिलाओं और बच्चों के सम्पूर्ण लाभार्थी प्रबंधन का 360 डिग्री अर्थात चौतरफा दृष्टिकोण प्रदान करना है। पब्लिक डैसबोर्ड का प्रमुख कार्य लाभार्थी को प्रदत सेवा में पारदर्शिता को बनाए रखने में सहायता प्रदान करना है।.","The POSHAN tracker enables real time tracking and monitoring of all Anganwadi workers as well as beneficiaries based on defined indicators. It is built using centralized data structures wherein other Ministries and their programs are aligned through a digital system. The objective is to provide 360 degree view of Anganwadi Centre activities, service delivery of Anganwadi workers, and overall beneficiary management of pregnant women, lactating mothers and children. The main function of the Public Dashboard is to help maintain transparency in the delivery of services to the beneficiary."
+Services Delivered,प्रदत सेवा,Service rendered
+"Tracking of services to the end beneficiary at a click of a button. Services like Take Home Ration (THR) and Hot cooked Meal (HCM), vaccination for Infants and Pregnant Women.","एक बटन के क्लिक द्वारा लाभार्थी के साथ-साथ सेवाओं की अंतिम रूप से ट्रैकिंग करना। टेक होम राशन, हॉट कुक्ड मील, गर्भवती महिलाओं और बच्चों के टीकाकरण जैसी सेवाएँ-.","End-to-end tracking of beneficiary as well as services through click of a button Services such as Take Home Ration, Hot Cooked Meal, Immunization of Pregnant Women and Children etc."
+Growth Measurement,वृद्धि/विकास माप,Growth / Development Measurement
+"Children of different age groups are monitored on monthly basis by AWWs. Health indicators like Stunting, Wasting and Underweight prevalence are measured as per WHO standards. Regular growth monitoring helps AWWs to provide relevant and timely assistance to children.","AWW द्वारा मासिक आधार पर विभिन्न आयु वाले बच्चों की निगरानी करना। स्वास्थ्य संकेतक जैसे-स्टंटिंग, वेस्टिंगऔर कम वजन से संबंधित मामलों को विश्व स्वास्थ्य संगठन के मानक के अनुसार मापा जाता है। बच्चों को प्रासंगिक और आवधिक सहायता प्रदान करने में नियमित विकास निगरानी आँगनवाड़ी कार्यकर्ताओं को सक्षम बनाता है।.","Monitoring of children of different ages on a monthly basis by AWW Health indicators such as stunting, wasting and underweight are measured as per WHO standards."
+Home Visit Alerts,गृह-यात्रा संकेतक,Home Travel Indicators
+"The Poshan Tracker generates automated alerts to the critical last-mile beneficiaries. It also ensures efficient audit of the delivery system by documenting real time attendance of beneficiaries and duty bearers. This management information system will help the nutrition programme to scale efficiently, thereby generating and documenting positive impact.",पोषण ट्रैकर लाभार्थियों के महत्वपूर्ण स्व-चालित संकेतकों का निर्माण करता है। यह लाभार्थियों और कर्तव्य धारकों की वास्तविक सामयिक उपस्थिति का दस्तावेजीकरण करके वितरण प्रणाली की कुशल लेखा परीक्षा की भी सुनिश्चितता करता है। यह प्रबंधन सूचना प्रणाली पोषण कार्यक्रम और उससे संबंधित दस्तावेजीकरण की कुशलता से वृद्धि करते हुए सकारात्मक प्रभाव को उत्पन्न करने में सहायता करेगी।.,It also ensures efficient audit of the delivery system by documenting the real time attendance of beneficiaries and duty holders. This Management Information System will help in generating positive impact by efficiently increasing the nutrition programme and documentation related thereto.
+Learning Videos,विडियो से सीखना,Learning from the video
+How to take care of weak newborn with the help of Kangaroo Mother Care,कंगारु मदर केयर के साथ अपने कमजोर नवजात बच्चों की देखभाल कैसे करें,How to take care of your weak newborn with kangaroo mother care
+Preventing illnesses to avert Malnutrition and Death,कुपोषण और मृत्यु पर रोक के संदर्भ में बीमारियों से बचाव,Prevention of Diseases in the context of Prevention of Malnutrition and Death
+Prevention of Anemia in children and adolescents girls,बच्चों और किशोरियों में होने वाली रक्त की कमी से बचाव,Prevention of anaemia in children and adolescents
+Birth Preparedness- For Institutional and Home Delivery,जन्म से पूर्व तैयारी-नैदानिकों और गृह प्रसव के संदर्भ में,Pre-natal preparedness - in respect of diagnostics and home delivery
+Care of the weak newborn baby - How many weak babies are we missing?,कमजोर नवजात शिशु की देखभाल- हमारे द्वारा कितने कमजोर शिशुओं की अनदेखी हुई है?,Weak Newborn Care - How many weak babies have we ignored?
+Feeding During Illness,बीमारी के दौरान स्तनपान,Breastfeeding during illness
+Preparation During Pregnancy - For NewBorn Care & Family Planning,गर्भावस्था के दौरान की जाने वाली तैयारी- नवजातों की देखभाल और परिवार नियोजन के संदर्भ में,PREPARATION DURING PREPARATION OF PREGNANCY CARE AND FAMILY PLANNING
+Ensuring Exclusive Breastfeeding,त्वरित रूप से स्तनपान को सुनिश्चित करना,Ensure prompt breastfeeding
+Assessment of growth in children,बच्चों में विकास का मूल्यांकन,Evaluation of Child Development
+Preventing anemia in women,महिलाओं का एनीमिया से बचाव,Protection of Women from Anaemia
+Complementary Feeding - Diet Diversity,पूरक स्तनपान-विविधता पूर्ण आहार,Supplementary Breastfeeding Diverse Diets
+Identification and care of a Weak Newborn baby,कमजोर नवजात शिशु की पहचान और देखभाल,Identification and Care of Vulnerable Newborn
+Observing Breastfeeding In Newborn Babies,नवजात शिशुओं के स्तनपान संबंधी मामलों पर ध्यान देना,Focus on Neonatal Breastfeeding
+Planning And Organising Community Based Events At AWC,आँगनवाड़ी केंद्र पर सामुदायिक आधार पर कार्यक्रमों की योजना बनाना एवं उसे व्यवस्थित करना,Planning and organizing community based programmes at Anganwadi Centres
+Making or Updating Home Visit Planner and Initiating home visits,देखभाल कर्ता की गृह यात्रा संबंधी योजनाओं का निर्माण करना और उन्हें अद्यतित करते रहना,Create and update the home visit plans of the caregiver.
+Ensuring that complementary feeding improves over time,समय के साथ पूरक आधार की सुनिश्चिता करना,Ensuring Supplementary Basis over time
+How to ensure timely initiation of complementary feeding,पूरक पोषण की आवधिक सुनिश्चितता कैसे करें,How to ensure periodic coverage of Supplementary Nutrition
+Identifying and preventing Severe Acute Malnutrition,गंभीर कुपोषण की पहचान और बचाव,Identification and Prevention of Severe Malnutrition
+Identification & Referral of Sick Newborn,संदर्भित बीमार नवजात की पहचान,Referenced Identification of Sick Newborn
+Supporting mothers with issues in Breastfeeding,स्तनपान कराने में अक्षम महिलाओं के लिए सहायता प्रदान करने वाली माताएँ,Mothers who provide assistance to lactating women
+Why this Monthly Meeting?,मासिक बैठक की अनिवार्यता? (इस मासिक बैठक की आवश्यकता क्यों हैं?),Compulsory Monthly Meetings? (Why are monthly meetings required?)
+Awareness,जागरूकता,awareness (a)
+ALL ,सभी ,All of them
+GENERAL ,सामान्य ,normal (a)
+Pregnant Women ,गर्भवती महिलाएं ,pregnant women
+Lactating Mothers ,स्तनपान कराने वाली महिलाएँ ,Breastfeeding women
+CHILD CARE ,बाल देखभाल ,child care
+General,आम,common (a)
+Download PDF,PDF डाउनलोड करें,Download PDF
+General Awareness about Growth Monitoring of Children,बच्चों के विकास से संबंधित निगरानी के बारे में सामान्य जागरूकता,General Awareness on Monitoring of Child Development
+General Awareness about preventing illness in Children,बच्चों में बीमारियों से बचाव के बारे में सामान्य जागरूकता,General Awareness on Prevention of Diseases in Children
+General Awareness for Pregnancy,गर्भावस्था पर सामान्य जागरूकता,General Awareness on Pregnancy
+General Awareness on Module,मॉड्यूल पर सामान्य जागरूकता,General Awareness on Modules
+General Awareness on Anaemia,एनीमिया पर सामान्य जागरूकता,General Awareness on Anaemia
+General Awareness on SAM and MAM,SAM और MAM पर सामान्य जागरूकता,General Awareness on SAM and MAM
+General Awareness on Mother Care,मातृत्व देखभाल पर सामान्य जागरूकता,General Awareness on Maternity Care
+General Awareness on the Delivery of the child,बच्चे के प्रसव पर सामान्य जागरूकता,General Awareness on Childbirth
+Pregnant Women,गर्भवती महिलाएं,pregnant women
+Awareness for Pregnancy in Preventing Anemia,गर्भावस्था के दौरान एनीमिया से बचाव पर जागरूकता,Awareness on prevention of anemia during pregnancy
+Lactating Mothers,स्तनपान कराने वाली महिलाएँ,Breastfeeding women
+Awareness for Lactating Mother Complimentary Feeding for Children,बच्चों को स्तनपान कराने वाली महिलाओं के पूरक आहार के बारे में जागरूकता,Awareness on Supplementary Nutrition of Women who breastfeed their children
+Awareness to Lactating Mother,स्तनपान कराने वाली माताओं में जागरूकता,Awareness among Lactating Mothers
+"Awareness for Children Stunting, Wasting to prevent malnutrition in children","बच्चों में कुपोषण को रोकने के लिए स्टंटिंग, वेस्टिंग के प्रति जागरुकता","Awareness against stunting, wasting to prevent malnutrition in children"
+Growth Monitoring Assessment Charts,विकास निगरानी मूल्यांकन तालिका,Development Monitoring Evaluation Table
+Stunted Assessment Parameters,स्टंटेड मूल्यांकन मापदंड,Standardized Assessment Criteria
+Wasted Assessment Parameters,वेस्टेड मूल्यांकन मापदंड,Wested Evaluation Criteria
+Underweight Assessment Parameters,कम वजन वाले मूल्यांकन मापदंड,Low weight evaluation criteria
+Manuals,नियमावली,Rules and Regulations
+Poshan Tracker Process Flow,पोषण ट्रैकर प्रक्रिया प्रवाह,Nutrition Tracker Process Flow
+Circulars/Notifications,परिपत्र/अधिसूचनाएँ,Circular / Notifications
+03 June,03 जून,June 03
+Clarification regarding Cost of Smart phones,स्मार्ट फोन की लागत के संदर्भ में स्पष्टीकरण,Clarification in respect of Cost of Smartphones
+24 May,24 मई,May 24
+Uploading of Data of Anganwadi Services Schemes in Poshan Tracker,पोषण ट्रैकर में आँगनवाड़ी सेवा योजनाओं के आँकड़े को अपलोड करना,Uploading of Data of Anganwadi Services Schemes in POSHAN Tracker
+01 March,03 जून,June 03
+Data Plan for Mobile Application,मोबाइल एप्लिकेशन के लिए डेटा प्लान,Data Plan for Mobile Application
+02 February,02 फरवरी,February 02
+Specifications of Smart phone and Technical Compatibility Testing,स्मार्ट फोन के विनिर्देश और तकनीकी संगतता परीक्षण,Specification and Technical Compatibility Testing of Smart Phones
+Training on ICT Platform under POSHAN Abhiyaan,पोषण अभियान के तहत ICT प्लैटफ़ार्म पर प्रशिक्षण,Training on ICT Platform under POSHAN Abhiyaan
+New Poshan Tracker App - CSC-SPV Nodal Person,नया पोषण ट्रैकर एप्प-CSC-SPV नोडल व्यक्ति,New POSHAN Tracker App - CSC - SPV Nodal Person
+13 January,13 जनवरी,January 13
+New Poshan Tracker App,नया पोषण ट्रैकर एप्प,New Poshan Tracker App
