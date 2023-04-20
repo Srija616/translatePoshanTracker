@@ -94,6 +94,7 @@ def get_language_driver(language, driver, url):
         EC.element_to_be_clickable((By.XPATH, "//button[text()='{}']".format(language)))  # get the option to be clicked
     )
     option.click() # click the option, the website in required language will open up.    
+    return driver
 
 
 def process_language(args):
