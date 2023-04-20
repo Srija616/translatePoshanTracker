@@ -1,8 +1,9 @@
 from ftlangdetect import detect
 import indicnlp
 from indicnlp.tokenize import sentence_tokenize
+import pandas as pd
 import warnings
-warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore") 
 
 # most probably not required
 def tokenizeSentencewise(text, language):
@@ -28,85 +29,12 @@ def removeOtherLanguages(text_list, language):
             continue
     return final_data
 
-
 def cleanData(text_list):
-    final_data = []
-    # can be optimized using pandas df
-    for i in text_list:
-        if i.isnumeric() or len(i) <2:
-            continue
-        else:
-            final_data.append(i)
-    return final_data
+    df = pd.DataFrame(text_list, columns=["text"])
+    df = df[~df["text"].str.isnumeric() & (df["text"].str.len() >= 2)]
+    return df["text"].tolist()
             
 def detectLanguage(text):
     language_detected = ""
     language_detected = detect(text,  low_memory=False)['lang']
     return language_detected
-
-
-
- 
-    
-# # detect language
-# # clean data
-# # make dataframe
-
-# # clean data
-# directory = 'data'
-
-# for filename in os.scandir(directory):
-#     print (filename)
-#     with open(filename, 'r', encoding= 'utf-8') as f:
-#         text = f.read()
-#     print (type(text))
-#     print(text)
-#     detected_lang = detectLanguage(text)
-#     print (detected_lang)
-    
-#     # data = pd.read_csv(filename, delimiter = '\n', encoding = 'utf-8', names = ['text_data'])
-#     # print (data.head)
-#     # print (data.shape)
-#     data = indicnlp.tokenize.sentence_tokenize.sentence_split(text, 'en')
-#     # print ("Data", data)
-#     f_data = []
-#     for line in data:
-#         lines_split = line.split('\n')
-#         f_data.extend(lines_split)
-    
-#     detected_language = identify_language(f_data[0])
-#     final_data = []
-#     for line in f_data:
-#         try:
-#             # line= line.replace('"', '\\"')
-#             if identify_language(line) == detected_language:
-#                 final_data.append(line) 
-#             else:
-#                 print ("wrong lang: ", line)
-#         except:
-#             print ("except: ", line)
-#     print (final_data)
-#     print (len(final_data))
-#     filename = "output_new.txt"
-#     with open(filename, "w", encoding="utf-8") as f:
-#             # Write the data to the file
-#             f.write('\n'.join(final_data))
-#             # f.write(final_data)
-#     # indicnlp.tokenize.sentence_tokenize.sentence_split(final_data, 'en')
-    
-    
-# #     mask = data.apply(lambda x: identify_language(x['text_data']) == detected_language , axis=1)
-# # # use the mask to filter the original DataFrame
-# #     df_filtered = data[~mask]
-# #     print (df_filtered.head)
-# #         # print ("full data didn't work")
-#     # try:
-#     #     detected_language = identify_language(data)
-#     #     print ("full data worked")
-#     # except:
-#         # detected_language = identify_language(data.iloc[0])
-#         # print ("full data didn't work")
-      
-        
-
-
