@@ -7,12 +7,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 import multiprocessing
-import numpy as np
 import os
 import config
 import utils
 from bs4 import BeautifulSoup
-import time
 from indicnlp.tokenize import sentence_tokenize
 import pandas as pd
 import utils
@@ -122,7 +120,7 @@ def process_language(args):
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging']) # to remove a USB related warning message
     driver = webdriver.Chrome(options=options)
-    
+
     try:
         get_language_driver(lang, driver, url) 
     except:
@@ -143,17 +141,18 @@ def process_language(args):
     else:
         split_text_new = split_text
 
-    detected_language = utils.detectLanguage(all_text.replace("\n", "")) # fasttext-detect cannot take newline charaters.
+    detected_language = utils.detect_language(all_text.replace("\n", "")) # fasttext-detect cannot take newline charaters.
+    print (f"Detected Language: {detected_language} for {language_isocode}")
     
     if (language_isocode in config.ft_lang_supported): # supported by fastText because we use the detect function
-        text_list = utils.removeOtherLanguages(split_text_new, language_isocode)
-        text_list = utils.cleanData(text_list)
+        text_list = utils.remove_other_languages(split_text_new, language_isocode)
+        text_list = utils.clean_data(text_list)
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
         save_data("superCleanSupported", language_isocode + ".csv", text_list)
         
     else:
-        split_text_new = utils.cleanData(split_text_new) # cannot remove other languages because the text language itself is not supported
+        split_text_new = utils.clean_data(split_text_new) # cannot remove other languages because the text language itself is not supported
         text_list = pd.DataFrame({'data': split_text_new, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
         save_data("superCleanUnsupported", language_isocode + ".csv", text_list)
@@ -177,8 +176,8 @@ def get_all_data(url):
     if (len(config.languages) != 0):
         lang_dict = dict(zip(config.languages, config.language_codes)) # key: language on website, language_codes = iso_code for the language
         languages = [lang_dict[lang] for lang in config.languages] # list of all language codes to be used
-
-        with multiprocessing.Pool(processes=1) as pool:
+        num_processes = min(os.cpu_count(), 2)
+        with multiprocessing.Pool(processes=num_processes) as pool:
             data = pool.map(process_language, [(lang, lang_dict[lang], url, url_main) for lang in config.languages]) #get all data from websites.
             # data -> [[data for lang1], [data from lang2], [data from lang3], ...]
             # save data for each indic language separately in the folder 'rawBinaryData' where each file is a csv file

@@ -15,7 +15,7 @@ def tokenizeSentencewise(text, language):
         final_data.extend(lines_split)
     return final_data
 
-def removeOtherLanguages(text_list, language):
+def remove_other_languages(text_list, language):
     final_data = []
     if (text_list == None): 
         return []
@@ -29,12 +29,12 @@ def removeOtherLanguages(text_list, language):
             continue
     return final_data
 
-def cleanData(text_list):
+def clean_data(text_list):
     df = pd.DataFrame(text_list, columns=["text"])
     df = df[~df["text"].str.isnumeric() & (df["text"].str.len() >= 2)]
     return df["text"].tolist()
             
-def detectLanguage(text):
+def detect_language(text):
     language_detected = ""
     language_detected = detect(text,  low_memory=False)['lang']
     return language_detected
