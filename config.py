@@ -1,3 +1,6 @@
+url_main = "https://www.poshantracker.in/"
+raw_data_directory = "raw_data"
+
 languages = ['English', 'हिंदी', 'ગુજરાતી', 'મરાઠી', 'ಕನ್ನಡ', 'മലയാളം', 'தமிழ்', 'తెలుగు', 'বাংলা', 'অসমীয়া', 'ਪੰਜਾਬੀ', 'ଓଡ଼ିଆ', 'नेपाली', 'डोगरी', 'कोंकणी',
              'सिंधी', 'बोडो', 'मैथिली', 'মণিপুরী', 'संथाली', 'اردو', 'کٲشُر']
 language_codes = ['en', 'hi', 'gu', 'mr', 'kn', 'ml', 'ta', 'te', 'bn', 'as', 'pa', 'or', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni' , 'sat', 'ur', 'ks']

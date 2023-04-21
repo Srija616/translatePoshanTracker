@@ -23,6 +23,8 @@ for file in os.listdir(directory):
     new_df.to_csv(file, index= False)
             
 
+# uncomment and use this part of code to align text 
+
 # df = pd.read_csv("en_or.csv")
 # count = df[df.columns[1]].count()
 # for i in range(214, count-1):
