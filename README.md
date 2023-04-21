@@ -54,7 +54,7 @@ Assuming you have pip and python installed,
  ```sh
    bash script.sh
    ```
- Note: After cloning indicTrans, please add __init__.py file in the indicTrans directory. Also change the import statement in indicTrans\inference\engine.py: from  ```sh inference.custom_interactive import Translator``` to ```sh from indicTrans.inference.custom_interactive import Translator```
+ Note: After cloning indicTrans, please add __init__.py file in the indicTrans directory. Also change the import statement in indicTrans\inference\engine.py: from  ```inference.custom_interactive import Translator``` to ```from indicTrans.inference.custom_interactive import Translator```
 
 <!-- Task 1 -->
 ## Task 1 - Downloading the data
@@ -65,7 +65,7 @@ The extracted data is divided into three sets:
 Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te']
 2. **unsupported_clean**: For languages that are not supported by fasttext-langdetect, data is cleaned to remove duplicates, English text and text with less than 2 characters.</br>
 Languages: ['as', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni', 'sat', 'ur', 'ks']
-3. **supported_clean**: For languages supported by fasttext-langdetect and also in the common_supported languages (i.e. translation is supported by both indicTrans and Helsinki), monolingual cleaned data is added here. 
+3. **supported_clean**: For languages supported by fasttext-langdetect and also in the common_supported languages (i.e. translation is supported by both indicTrans and Helsinki), monolingual cleaned data is added here. </br>
 Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te', 'en']
 
 <!-- Task 2 -->
