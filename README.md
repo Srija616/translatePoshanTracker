@@ -9,11 +9,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#Code">Code</a></li>
-      </ul>
     </li>
     <li><a href="#task1">Task 1</a></li>
     <li><a href="#task2">Task 2</a></li>
@@ -60,7 +55,7 @@ Assuming you have pip and python installed,
    bash script.sh
    ```
 <!-- Task 1 -->
-## Downloading the data
+## Task 1 - Downloading the data
 
 After installing the requirements, run the **web_scraper.py** file. The web_scraper.py module extracts data from [PoshanTracker] (https://www.poshantracker.in/) and its internally linked webpages.
 The extracted data is divided into three sets:
