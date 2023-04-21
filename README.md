@@ -126,7 +126,7 @@ Run the code **helsinki.py** and the output is stored in directory **translated_
 
 
 <!-- Observations -->
-<!-- Inferences and observations -->
+## Inferences and observations
 
 
 
