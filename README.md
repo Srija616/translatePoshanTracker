@@ -62,15 +62,20 @@ Assuming you have pip and python installed,
 <!-- Task 1 -->
 ## Downloading the data
 
-After installing the requirements, run the web_scraper.py file. The web_scraper.py module extracts data from [PoshanTracker] (https://www.poshantracker.in/) and its internally linked webpages.
+After installing the requirements, run the **web_scraper.py** file. The web_scraper.py module extracts data from [PoshanTracker] (https://www.poshantracker.in/) and its internally linked webpages.
 The extracted data is divided into three sets:
-1. Data stored in raw_data - it consists of csv files in the format en-indiclang. raw_data is cleaned manually (or with a small script - **align.py**) to align the data. Using **cleaning.py**, the data is finally processed to remove duplicates and data from other languages (especially separating English data from Indic data)
-
+1. Data stored in raw_data - it consists of csv files in the format en-indiclang. raw_data is cleaned manually (or with a small script - **align.py**) to align the data. Using **cleaning.py**, the data is finally processed in Task 2 to remove duplicates and data from other languages (especially separating English data from Indic data) </br>
+Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te']
+2. **unsupported_clean**: For languages that are not supported by fasttext-langdetect, data is cleaned to remove duplicates, English text and text with less than 2 characters.</br>
+Languages: ['as', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni', 'sat', 'ur', 'ks']
+3. **supported_clean**: For languages supported by fasttext-langdetect and also in the common_supported languages (i.e. translation is supported by both indicTrans and Helsinki), monolingual cleaned data is added here. 
+Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te', 'en']
 
 <!-- Task 2 -->
 ## Task 2 - Preprocessing data
 Input directory: **raw_data_new**  (It contains the output of Task 1 post processing)
 Output directory: **raw_data_new** 
+After aligning the text in **raw_data**, clean the text using **cleaning.py**
 It does the following tasks:
 1. Cleaning - Remove duplicates, remove data from other languages, remove data that is numeric or of length less than 2 characters.
 2. Language detection - Done only for languages supported by fasttext-langdetect
