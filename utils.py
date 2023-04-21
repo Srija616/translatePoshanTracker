@@ -35,7 +35,7 @@ def clean_data(text_list):
             
 def detect_language(text):
     # text should not have \n characters
-    text.replace("\n", "")
+    text.replace("\n", " ")
     language_detected = ""
     language_detected = detect(text,  low_memory=False)['lang']
     return language_detected

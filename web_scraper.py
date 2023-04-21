@@ -125,10 +125,9 @@ def process_language(args):
         split_text = all_text.split("\n")
     
     split_text_new = split_text
-    
-    # detected_language = utils.detect_language(all_text.replace("\n", "")) # fasttext-detect cannot take newline charaters.
-    
-    if (language_isocode in config.ft_lang_supported): # supported by fastText because we use the detect function
+    print (f"number of sentences found: {len(split_text)}")
+
+    if language_isocode in config.common_supported_languages: # supported by fastText because we use the detect function
         text_list = utils.remove_other_languages(split_text_new, language_isocode)
         text_list = utils.clean_data(text_list)
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
@@ -159,23 +158,25 @@ def get_all_data(url, directory):
     No output. The extracted data is stored in 'directory' folder
     '''
 
-    if (len(config.languages) != 0):
+    if len(config.languages) != 0:
         lang_dict = dict(zip(config.languages, config.language_codes)) # key: language on website, language_codes = iso_code for the language
         languages = [lang_dict[lang] for lang in config.languages] # list of all language codes to be used
         num_processes = min(os.cpu_count(), 2)
         with multiprocessing.Pool(processes=num_processes) as pool:
             data = pool.map(process_language, [(lang, lang_dict[lang], url, url_main) for lang in config.languages]) #get all data from websites.
-            
-        # code block to save the extracted data in csv files
-        index_en = languages.index('en')
-        df_en=pd.DataFrame(data=data[index_en],columns=[languages[index_en]])
         
-        for i in  range(len(languages)):
-            if (languages[i] != 'en'):
-                df_temp = pd.DataFrame(data=data[i],columns=[languages[i]])
-                df = pd.concat([df_en, df_temp], axis=1)
-                file = "en_" + languages[i] + ".csv"
-                save_data(directory, file, df)
+        eng = "en"
+        if eng in languages:
+        # code block to save the extracted data in csv files
+            index_en = languages.index('en')
+            df_en=pd.DataFrame(data=data[index_en],columns=[languages[index_en]])
+            
+            for i in  range(len(languages)):
+                if languages[i] != 'en':
+                    df_temp = pd.DataFrame(data=data[i],columns=[languages[i]])
+                    df = pd.concat([df_en, df_temp], axis=1)
+                    file = "en_" + languages[i] + ".csv"
+                    save_data(directory, file, df)
     return 
 
 
