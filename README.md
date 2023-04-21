@@ -53,12 +53,10 @@ Assuming you have pip and python installed,
  ```sh
    pip install -r requirements.txt
    ```
- 3. For task 2 and 3, indic-nlp library and indicTrans translation model is required, so run the script.sh file
+ 3. For task 1, 2 and 3, indic-nlp library and indicTrans translation model is required, so run the script.sh file
  ```sh
    bash script.sh
    ```
-   In case you are in Windows environment and want to run the script from VS Code: 
-
 <!-- Task 1 -->
 ## Downloading the data
 
