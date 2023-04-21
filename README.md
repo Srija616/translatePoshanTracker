@@ -66,6 +66,7 @@ The extracted data is divided into three sets:
 
 
 <!-- Task 2 -->
+## Task 2 - Preprocessing data
 Input directory: **raw_data_new**  (It contains the output of Task 1 post processing)
 Output directory: **raw_data_new** 
 It does the following tasks:
