@@ -25,7 +25,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] () and [Helsinki] (). Finally, the BLEU scores and CHRF scores are calculated. The five tasks and the instructions to run the code are described in section A and section B respectively. 
+The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] () and [Helsinki] (). Finally, the BLEU scores and CHRF scores are calculated.
 
 Here is a list of all webpages scraped:
 |No. | Webpage  |
@@ -41,18 +41,6 @@ Here is a list of all webpages scraped:
 |9. |https://www.poshantracker.in/support/ |
 |10. |https://www.poshantracker.in/faq/ |
 |11. |https://www.poshantracker.in/ptcalculator/ |
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -71,58 +59,52 @@ Assuming you have pip and python installed,
    ```
    In case you are in Windows environment and want to run the script from VS Code: 
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- Task 1 -->
 ## Downloading the data
 
 After installing the requirements, run the web_scraper.py file. The web_scraper.py module extracts data from [PoshanTracker] (https://www.poshantracker.in/) and its internally linked webpages.
 The extracted data is divided into three sets:
-1. Data stored in rawBinaryData - it consists of csv files in the format en-indiclang. rawBinaryData is cleaned manually (or with a small script) to align the data. Using cleaning.py, the data is finally processed to remove duplicates and data from other languages (especially separating English data from Indic data)
+1. Data stored in raw_data - it consists of csv files in the format en-indiclang. raw_data is cleaned manually (or with a small script - **align.py**) to align the data. Using **cleaning.py**, the data is finally processed to remove duplicates and data from other languages (especially separating English data from Indic data)
 
 
 <!-- Task 2 -->
-## Task 2
+Input directory: **raw_data_new**  (It contains the output of Task 1 post processing)
+Output directory: **raw_data_new** 
+It does the following tasks:
+1. Cleaning - Remove duplicates, remove data from other languages, remove data that is numeric or of length less than 2 characters.
+2. Language detection - Done only for languages supported by fasttext-langdetect
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+|Language - original | Language - Detected |
+|----| ------------- | 
+|Bengali| Bengali |
+|Gujarati | Gujarati |
+|Hindi | Hindi |
+|Kannada | Kannada |
+|Malayalam | Malayalam|
+|Marathi | Marathi|
+|Odia | Odia |
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+0,bn,bn
+1,gu,gu
+2,hi,hi
+3,kn,kn
+4,ml,ml
+5,mr,mr
+6,or,or
+7,pa,pa
+8,ta,ta
+9,te,te
+10,as,as
+11,brx,en
+12,doi,en
+13,kok,mr
+14,mai,hi
+15,mni,bn
+16,ne,ne
+17,sat,en
+18,sd,hi
+19,ur,ur
 
 
 <!-- Task 3 -->
