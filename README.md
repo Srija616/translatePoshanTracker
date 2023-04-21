@@ -19,6 +19,8 @@
     <li><a href="#task2">Task 2</a></li>
     <li><a href="#task3">Task 3</a></li>
     <li><a href="#task4">Task 4</a></li>
+    <li><a href="#task5">Task 5</a></li>
+    <li><a href="#observations">Observations</a></li>
   </ol>
 </details>
 
@@ -123,6 +125,8 @@ Run the code **helsinki.py** and the output is stored in directory **translated_
 |9     |te           |39.97781730506786 |62.885759163173674|20.18320840530373 |43.50483959356902 |
 
 
+<!-- Observations -->
+<!-- Inferences and observations -->
 
 
 
