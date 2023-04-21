@@ -132,13 +132,13 @@ def process_language(args):
         text_list = utils.clean_data(text_list)
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
-        save_data("cleanSupported", language_isocode + ".csv", text_list)
+        save_data("clean_supported", language_isocode + ".csv", text_list)
         
     else:
         text_list = utils.clean_data(split_text_new) # cannot remove other languages because the text language itself is not supported
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
-        save_data("cleanUnsupported", language_isocode + ".csv", text_list)
+        save_data("clean_unsupported", language_isocode + ".csv", text_list)
 
     return split_text
 

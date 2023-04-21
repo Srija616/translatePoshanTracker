@@ -11,7 +11,7 @@ import config
 # NOTE: splitting is performed as part of web scraping itself.
 lang_detected = []
 directory = config.raw_data_new_directory
-save_directory = "raw_temp"
+save_directory = config.raw_data_new_directory
 directory_unsupported = 'cleanUnsupported'
 
 for file in os.listdir(directory):
