@@ -27,9 +27,6 @@ if __name__ == "__main__":
     
     with multiprocessing.Pool(processes=num_processes) as pool:
         scores_helsinki = pool.map(getScore, [(file, directory_helsinki, file[:-4], "translated_helsinki", "en") for file in os.listdir(directory_helsinki)])
-        
-    # print (scores_indicTrans)
-    # print (scores_helsinki)
     
     df_indicTrans = pd.DataFrame(scores_indicTrans, columns = ["language_code", "bleu_indicTrans", "chrf_indicTrans"])
     df_helsinki = pd.DataFrame(scores_helsinki, columns = ["language_code", "bleu_helsinki", "chrf_helsinki"])

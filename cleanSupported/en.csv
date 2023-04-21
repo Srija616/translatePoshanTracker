@@ -14,31 +14,60 @@ Helpdesk,en
 Beneficiary Redressal,en
 State Helpdesk,en
 Poshan Calculator,en
- Previous,en
- Next,en
 Anganwadi Workers,en
 Download Mobile App from Play Store,en
 Scan the QR Code to Download the App,en
 What’s New on Poshan Tracker,en
+Previous,en
 Poshan Tracker adds new application features,en
 Poshan Tracker adds new Reports feature,en
 Poshan Tracker adds new Resources on Website,en
-Resources for growth monitoring and general awareness,en
-Growth monitoring charts,en
-New beneficiary addition with skip OTP option,en
-Mobile number need to be validated within a week,en
-Anganwadi Worker profile page,en
-Stunting and Underweight Growth Parameters,en
-Beneficiaries status change notifications,en
+Next,en
+Resources for Growth Monitoring and General Awareness,en
+Growth Monitoring Charts,en
+Learning Videos available for all Categories,en
+"New User Interface on Home Page for Beneficiary List, Daily Tracking, Home Visits and Notifications",en
+"Frequently Used Features available for Beneficiary Registration, Aadhar Verification, Beneficiary  Migration",en
+"Dashboard Shortcuts available for Daily Tracking, Home Visits and Growth Monitoring in Real Time",en
+SAM and Underweight Children Report available as of Previous Month,en
+Available in 22 Different Languages,en
+Option to select whether the Beneficiaries in 3-6 Years Category are School Going or not,en
+Option to select Category and Religious Minority(if any) for all Beneficiaries,en
+Update AWC Location in Online Mode,en
+Registration of Beneficiaries and Daily Tracking available in Offline Mode that can store data for 3 days,en
+Expected Date of Delivery is available in Profile Card of Pregnant Women Category,en
+Reproductive and Child Health (RCH) Profile visible for Pregnant Women and Lactating Mother Categories,en
+Three Dots Option available in all Beneficiary categories-,en
+Update Profile,en
+Migrate to Lactating Mother (for Pregnant Women Category),en
+Add Growth and Nutritional Details,en
+Growth Monitoring (for all categories related to Children between 0 month to 6 years),en
+Add Vaccination Details,en
+Beneficiary Dead,en
+"Time Stamp available for  Newly Registered Beneficiaries, Profile Updation/ Growth Monitoring of Beneficiaries",en
+Beneficiaries status change notification in the bell icon-,en
 Migrated from one category to another,en
 Beneficiary record becoming inactive,en
-Beneficiary migration from one AWC to another AWC,en
-Beneficiary deletion by AWW,en
-Default language selection,en
-"Beneficiary concerns accessibility to AWW, along with status update once resolved",en
-Growth monitoring report for all health indicators,en
-Application downloaded status by AWW,en
-Beneficiary count report : Number of records becoming inactive and number of records migrating from one category to another,en
+AWC Infra removed from Application and added to Master List of the Poshan Tracker Dashboard,en
+Current Month and Monthly Reports available for download in CSV and/or PDF Format,en
+59pm) as well as Day minus 3 (to let offline data sync).,en
+Beneficiaries,en
+Measuring Efficiency,en
+AWC Daily Monitoring,en
+AWC Operational Status,en
+"Home Visit, and",en
+Supplementary Nutrition (THR),en
+"Monthly Reports of Supplementary Nutrition provided for Pregnant Women, Lactating Mothers, and Children of 6months to 3 years and 3 to 6 years available with Hyperlinks accessible till AWC level",en
+Anaemia Report available for Pregnant Women and Lactating Mothers on a Monthly basis,en
+Adolescent Girls Report accessible for Aspirational Districts with Hyperlinks accessible till AWC level,en
+"AWC details on Workers, Helpers and their Incentives, Infrastructure, Events, Home Visits and Measuring Efficiency available on a Monthly basis",en
+"Supplementary Nutrition Projection available for Pregnant Women, Lactating Mothers, and Children of 6months to 3 years and 3 to 6 years as well as SAM Children (6 months to 5 years)",en
+"Detailed Growth Monitoring Report available for all health indicators with Hyperlinks accessible till AWC level- Stunting, Wasting and Underweight (for 0-5 Years Category Children) and, Stunting and Underweight (5-6 Years Category Children)",en
+Children Count available till-,en
+Low Birth Weight of Children between 0-6 months,en
+Measuring Efficiency for Children between 0-6 years and Health Status of Children between 0-5 years,en
+Beneficiary details available about their Issue Redressal and Activity (till AWC level) as well as Total Registered Active Beneficiary Count (State level),en
+Status of AWCs registered with Poshan Tracker Application and their reporting status available at State level,en
 Poshan Calculator is designed to measure growth of the child based on standards defined by World Health Organization (WHO).,en
 How to use Poshan Calculator?,en
 Select Gender,en
@@ -46,12 +75,12 @@ Enter Date of Birth,en
 Enter Height in centimeter,en
 Enter Weight in kilogram,en
 Click on Show Results,en
-Gender ,en
+Gender,en
 Boy,en
 Girl,en
-Date of Birth ,en
+Date of Birth,en
 *Height should be between 38 to 150,en
-Weight (KG) ,en
+Weight (KG),en
 *Weight should be between 0.90 to 58,en
 Show Results,en
 ABHA (Health ID) and its Benefits,en
@@ -68,9 +97,9 @@ What is the purpose of Launching Poshan Tracker?,en
 "The purpose of POSHAN Tracker application is to provide a 360-degree view of the activities of the Anganwadi Centre (AWC), service deliveries of Anganwadi Workers (AWWs) and complete beneficiary management for pregnant women, lactating mothers and children.",en
 "The proposed system should enable real-time monitoring and tracking of all AWCs, AWWs and beneficiaries on the defined indicators.",en
 How can one Download Poshan Tracker App?,en
-Poshan Tracker App is available over Google playstore ,en
+Poshan Tracker App is available over Google playstore,en
 https://play. google. com/store/apps/details?,en
- id=com. poshantracker,en
+id=com. poshantracker,en
 Is poshan trackers app available over Apple I Store also?,en
 "No, Poshan Tracker is available only for Android version",en
 What is the minimum requirement to install Poshan Tracker App in mobile?,en
@@ -104,7 +133,7 @@ Please contact your respective Anganwadi Centre.,en
 Who is eligible for additional supplementary food?,en
 We are now available on Video Conference,en
 State Video Conference,en
-Monday to Friday ,en
+Monday to Friday,en
 4:15 PM to 5:15 PM,en
 Join Now,en
 Anganwadi Worker Training,en
@@ -118,7 +147,6 @@ Privacy Policy,en
 Careers,en
 Copyright@2023  Poshan Tracker.,en
 All rights reserved,en
- You need to enable JavaScript to run this app.,en
 About Poshan Tracker,en
 Poshan Tracker App,en
 "The ‘Poshan Tracker’ is a mobile based application rolled out by the Ministry of Women and Child Development, Government of India on 1st March 2021 through National e-Governance Division (NeGD), Poshan Tracker is an important governance tool.",en
@@ -129,7 +157,7 @@ Services availed by,en
 Beneficiaries at Anaganwadi Center,en
 Morning Snacks,en
 Nutrition and,en
- Health checkup,en
+Health checkup,en
 WHAT ARE,en
 Poshan Tracker Features,en
 Real time recording and Monitoring,en
@@ -148,75 +176,13 @@ Home Visit Alerts,en
 The Poshan Tracker generates automated alerts to the critical last-mile beneficiaries.,en
 It also ensures efficient audit of the delivery system by documenting real time attendance of beneficiaries and duty bearers.,en
 "This management information system will help the nutrition programme to scale efficiently, thereby generating and documenting positive impact.",en
-Learning Videos,en
-How to take care of weak newborn with the help of Kangaroo Mother Care,en
-Preventing illnesses to avert Malnutrition and Death,en
-Prevention of Anemia in children and adolescents girls,en
-Birth Preparedness- For Institutional and Home Delivery,en
-Care of the weak newborn baby - How many weak babies are we missing?,en
-Feeding During Illness,en
-Preparation During Pregnancy - For NewBorn Care & Family Planning,en
-Ensuring Exclusive Breastfeeding,en
-Assessment of growth in children,en
-Preventing anemia in women,en
-Complementary Feeding - Diet Diversity,en
-Identification and care of a Weak Newborn baby,en
-Observing Breastfeeding In Newborn Babies,en
-Planning And Organising Community Based Events At AWC,en
-Making or Updating Home Visit Planner and Initiating home visits,en
-Ensuring that complementary feeding improves over time,en
-How to ensure timely initiation of complementary feeding,en
-Identifying and preventing Severe Acute Malnutrition,en
-Identification & Referral of Sick Newborn,en
-Supporting mothers with issues in Breastfeeding,en
-Why this Monthly Meeting?,en
-Awareness,en
-GENERAL ,en
-Pregnant Women ,en
-Lactating Mothers ,en
-General,en
-General Awareness about Home Visit Scheduler,en
-Download PDF,en
-General Awareness about Growth Monitoring of Children,en
-General Awareness about preventing illness in Children,en
-General Awareness for Pregnancy,en
-General Awareness on Module,en
-General Awareness on Anaemia,en
-General Awareness on SAM and MAM,en
-General Awareness on Mother Care,en
-General Awareness on the Delivery of the child,en
-Awareness for Pregnancy in Preventing Anemia,en
-Lactating Mothers,en
-Awareness for Lactating Mother Complimentary Feeding for Children,en
-Awareness to Lactating Mother,en
-Child Care,en
-"Awareness for Children Stunting, Wasting to prevent malnutrition in children",en
-Growth Monitoring Assessment Charts,en
-Stunted Assessment Parameters,en
-Wasted Assessment Parameters,en
-Underweight Assessment Parameters,en
-Poshan Tracker Process Flow,en
-Circulars/Notifications,en
-03 June,en
-Clarification regarding Cost of Smart phones,en
-24 May,en
-Uploading of Data of Anganwadi Services Schemes in Poshan Tracker,en
-01 March,en
-Data Plan for Mobile Application,en
-02 February,en
-Specifications of Smart phone and Technical Compatibility Testing,en
-Training on ICT Platform under POSHAN Abhiyaan,en
-New Poshan Tracker App - CSC-SPV Nodal Person,en
-13 January,en
-New Poshan Tracker App,en
 Birth,en
 Bacillus Calmette Guerin (BCG),en
-Oral Polio Vaccine (OPV)-0 dose ,en
+Oral Polio Vaccine (OPV)-0 dose,en
 Weeks,en
 Rotavirus Vaccine (RVV)-1,en
 Fractional dose of Inactivated Polio Vaccine (fIPV)-1,en
 Pneumococcal Conjugate Vaccine (PCV) -1,en
-10 ,en
 Pentavalent-2,en
 Pentavalent-3,en
 fIPV-2T,en
@@ -233,57 +199,80 @@ DPT-Booster-2,en
 India,en
 Select State,en
 Select District,en
-Last Updated On : 18/04/2023,en
+Last Updated On : 20/04/2023,en
+States/UTs,en
+Districts,en
+Projects,en
+Sectors,en
+Angwanwadi Centers,en
+Active Beneficiaries,en
 General Information,en
 *State level aggregated data as received from States,en
-Owned Building,en
 AWC Infrastructure,en
-Functional Toilet,en
+Own Building,en
+"6,33,657",en
+Functional Toilets,en
+"11,01,843",en
 Drinking Water Source,en
+"12,23,578",en
 Anganwadi Center Details,en
 Report for Mar 2023,en
+Total,en
+Anganwadi Centers,en
+Open For Atleast 21 Days,en
 Eligible Beneficiaries,en
 As on 31st Mar 2023,en
+Total Active Beneficiaries,en
+Lactating Mothers,en
+Children,en
+(0-6 Months),en
+(6 Months - 3 Years),en
+(3 - 6 Years),en
+Aadhaar verified,en
+-%,en
+Health ID,en
+Created,en
 Aspirational Districts & North East Region,en
 Adolescent Girls,en
-Total,en
 Aadhaar Verified,en
 Take Home Ration (THR),en
 Given For Atleast 21 Days,en
 Key Services,en
+Hot Cooked Meal (HCM),en
+Given For Atleast 15 Days,en
 * Data on dashboard is provisional and subject to reconciliation of offline data sync from Poshan Tracker Mobile App,en
 Login to your account,en
-User Name ,en
-Password ,en
+User Name,en
+Password,en
 OPEN A NEW TICKET,en
 CHECK TICKET STATUS,en
 Create a New Ticket,en
 Please fill in the form below to create a new ticket.,en
-Anganwadi Worker will reach out to you within 48 hours. . Beneficiary Category ,en
+Anganwadi Worker will reach out to you within 48 hours. . Beneficiary Category,en
 Select a Beneficiary Category,en
 Children (0-6 months),en
 Children (6 months - 3 years),en
 Children (3 - 6 years),en
-Query Related to ,en
+Query Related to,en
 Select Query Related to,en
 AWW/AWC,en
 Supervisor,en
-Help Topic ,en
+Help Topic,en
 Select a Help Topic,en
-Description ,en
+Description,en
 Select a Description,en
-Mobile Number ,en
+Mobile Number,en
 Email,en
 Having difficulty raising ticket?,en
 Poshan Helpline,en
 By District,en
-State ,en
-District ,en
-Project ,en
+State,en
+District,en
+Project,en
 Select Project,en
-Sector ,en
+Sector,en
 Select Sector,en
-Anganwadi Center ,en
+Anganwadi Center,en
 Select An Anganwadi center,en
 Create Ticket,en
 Can App be accessed without internet?,en
@@ -351,10 +340,10 @@ They are newly added to the system and their mobile number is not yet provided b
 In both the above cases state nodal officers are empowered to add/ edit/Activate/Deactivate any of the AWW.,en
 How can one access Poshan Tracker Dashboard?,en
 Poshan Tracker Dashboard can be accessed by signing onto the dashboard.,en
-Dashboard can be accessed by clicking the link ,en
+Dashboard can be accessed by clicking the link,en
 https://poshantracker.,en
 in/admin,en
-" Only nominated Nodal level officials at National, State, District, Project and Sector level are provided with a unique credentials to access the dashboard.",en
+"Only nominated Nodal level officials at National, State, District, Project and Sector level are provided with a unique credentials to access the dashboard.",en
 How one can add AWW/AWCs?,en
 AWW/AWCs can only be added by nodal level official.,en
 Anybody in the above rank in the hierarchy.,en
@@ -390,15 +379,15 @@ Poshan Tracker Team can be contacted by sending emails at support-poshantrackr@g
 What is Poshan Calculator,en
 Poshan Calculator helps to identify various health conditions of the child as per World Health Organization (WHO) standards.,en
 WHO standards are :,en
-Stunting ( Height for Age)- ,en
+Stunting ( Height for Age)-,en
 0 months to 6 years,en
 Severely Stunted,en
 Moderately stunted,en
 Normal,en
-Underweight (Weight for Age)- ,en
+Underweight (Weight for Age)-,en
 Severely Underweight,en
 Moderately Underweight,en
-Wasting (Weight for Height)- ,en
+Wasting (Weight for Height)-,en
 0 months to 5 years,en
 Severely Wasted (SAM),en
 Moderately Wasted (MAM),en
@@ -414,16 +403,16 @@ How to revive your health if you are Moderately Wasted (MAM),en
 How to revive your health if you are Underweight,en
 Check Ticket Status,en
 Please provide your mobile number and a ticket number.,en
-Mobile ,en
-Ticket Number ,en
+Mobile,en
+Ticket Number,en
 View Ticket,en
-"If this is your first time contacting us or you've lost the ticket number, please ",en
+"If this is your first time contacting us or you've lost the ticket number, please",en
 open a new ticket,en
 Welcome!,en
-The following are the Terms of Service (“Terms”) that govern your use of the Poshan Tracker Platform hosted at ,en
+The following are the Terms of Service (“Terms”) that govern your use of the Poshan Tracker Platform hosted at,en
 ", and all associated sites linked to it, its subsidiaries, and affiliates (collectively, the “Site”). I. OWNERSHIP",en
 "The Site and all data, text, designs, pages, print screens, images, artwork, photographs, audio and video clips, HTML code, source code, or software that reside or are viewable or otherwise discoverable on the Site, and all participants booked from the Site, (collectively, termed as the “Content”) are owned by Ministry of Women and Child Development and their authorised service providers.",en
- II. CONSENT,en
+II. CONSENT,en
 "Our Privacy Policy, Open API Policy and any other policies, rules or guidelines that may be applicable to particular offers or features on the Site are incorporated in these Terms.",en
 "By visiting or using the Site, you expressly agree to these Terms, as updated from time to time.",en
 "If you do not agree with any part of these terms, do not use the site.",en
@@ -517,7 +506,7 @@ Our Privacy Policy applies when you use our Services (described below).,en
 The collecting and retaining agency in respect of your information is MWCD.,en
 We are committed to protecting the security of your personal information and safeguarding your privacy.,en
 "Any information or data collected and processed on the System is done in accordance with the provisions of Information Technology Act, 2000 read with its Rules and other national and state laws relating to the collection and processing of personal data.",en
-This Privacy Policy is required to be read in conjunction with the Terms of Service available at ,en
+This Privacy Policy is required to be read in conjunction with the Terms of Service available at,en
 https://poshantracker. in,en
 . Your access to and use of the System is conditional upon your acceptance of this Privacy Policy and the Terms of Service.,en
 "By accessing and/or using the System, you represent that you have read, understood and are bound by the Terms of Service and this Privacy Policy, and that you consent to your information and data being collected, stored and used in the manner laid out in this Privacy Policy.",en
@@ -597,7 +586,6 @@ Poshan Tracker focuses on eradication of malnutrition from India.,en
 It serves as a mechanism to monitor and improvise on the service delivery under Poshan Abhiyaan.,en
 Job openings,en
 Video Conference,en
-Monday to Friday,en
 Book VC,en
 Get In Touch,en
 "Ministry of Women and Child Development, Government of India, Shastri Bhawan, New Delhi",en
