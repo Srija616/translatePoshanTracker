@@ -25,7 +25,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] () and [Helsinki] (). Finally, the BLEU scores and CHRF scores are calculated.
+The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] (https://github.com/AI4Bharat/indicTrans) and [helsinki-nlp/opus-mt-mul-en ] (helsinki-nlp/opus-mt-mul-en ). Finally, the BLEU scores and CHRF scores are calculated.
 
 Here is a list of all webpages scraped:
 |No. | Webpage  |
@@ -83,29 +83,20 @@ It does the following tasks:
 |Malayalam | Malayalam|
 |Marathi | Marathi|
 |Odia | Odia |
-
-
-0,bn,bn
-1,gu,gu
-2,hi,hi
-3,kn,kn
-4,ml,ml
-5,mr,mr
-6,or,or
-7,pa,pa
-8,ta,ta
-9,te,te
-10,as,as
-11,brx,en
-12,doi,en
-13,kok,mr
-14,mai,hi
-15,mni,bn
-16,ne,ne
-17,sat,en
-18,sd,hi
-19,ur,ur
-
+|Panjabi |Panjabi |
+|Tamil | Tamil |
+|Telugu | Telugu |
+|Assamese | Assamese |
+|Bodo | English |
+|Dogri | English |
+|Konkani | Marathi |
+|Maithili | Hindi |
+|Manipuri | Bengali |
+|Nepali | Nepali |
+|Santhali | English |
+|Sindhi | Hindi |
+|Urdu | Urdu |
+|Kashmiri | Urdu |
 
 <!-- Task 3 -->
 ## Task 3
