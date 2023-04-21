@@ -22,7 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] (https://github.com/AI4Bharat/indicTrans) and [helsinki-nlp/opus-mt-mul-en ] (helsinki-nlp/opus-mt-mul-en ). Finally, the BLEU scores and CHRF scores are calculated.
+The project scrapes the data from [PoshanTracker] (https://www.poshantracker.in/) website to create a parallel dataset of English-Indic language format. The Indic language data is then translated to English using two different models - [indicTrans] (https://github.com/AI4Bharat/indicTrans) and [helsinki-nlp/opus-mt-mul-en ] (https://huggingface.co/Helsinki-NLP/opus-mt-mul-en). Finally, the BLEU scores and CHRF scores are calculated.
 
 Here is a list of all webpages scraped:
 |No. | Webpage  |
@@ -54,6 +54,8 @@ Assuming you have pip and python installed,
  ```sh
    bash script.sh
    ```
+ Note: After cloning indicTrans, please add __init__.py file in the indicTrans directory. Also change the import statement in indicTrans\inference\engine.py: from  ```sh inference.custom_interactive import Translator``` to ```sh from indicTrans.inference.custom_interactive import Translator```
+
 <!-- Task 1 -->
 ## Task 1 - Downloading the data
 
@@ -129,6 +131,14 @@ Run the code **helsinki.py** and the output is stored in directory **translated_
 
 <!-- Observations -->
 ## Inferences and observations
+
+My observations on the translations:
+1. The translations by indicTrans are far better for most of the Indic languages in comparison to helsinki-nlp/opus-mt-mul-en
+2. helsinki-nlp/opus-mt-mul-en produces garbage text for certain languages like Bengali and Odia. Eg: "State Helpdesk" in Bengali is translated to "The Kingdom Hall of Jehovah’s Witnesses"
+3. Some words don't seem to be a part of the vocabulary, however indicTrans does a better job at Transliteration when it cannot translate, compared to Helsinki model. However, I also noticed that words like "Poshan" is translated into different words like "Posian" or "Posan" or "animal" [Refer Bengali translations]. 
+4. indicTrans adds certain character like %s or (s) before or after translations. While the translation itself is correct, but this could affect the Bleu and CHRF scores.
+5. There is a difference in the amount of data for each language which can affect the scores. This was due to differences during extraction of data from website.
+6. While absolute scores may not paint a correct picture, comparison of the scores for Helsinki and indicTrans is in sync with my own obeservations of data. IndicTrans is significantly better than Helsinki-NLP/opus-mt-mul-en.
 
 
 
