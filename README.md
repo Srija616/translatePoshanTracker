@@ -75,7 +75,8 @@ After aligning the text in **raw_data**, clean the text using **cleaning.py**
 Aligning the text requires some manual effort because the data gets misaligned by a row or two and each language's data needs to be assessed manually to decide the indexes which need to be shifted up or below to align the English - Indic text. Once this is done with the help of **align.py**, the following two steps can be taken:
 
 1. Cleaning - Remove duplicates, remove data from other languages, remove data that is numeric or of length less than 2 characters.
-2. Language detection - Done only for languages supported by fasttext-langdetect
+2. Language detection - Done only for languages supported by fasttext-langdetect.
+
 |Language - original | Language - Detected |
 |----| ------------- | 
 |Bengali| Bengali |
