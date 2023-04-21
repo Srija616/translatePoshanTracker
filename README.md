@@ -97,34 +97,32 @@ It does the following tasks:
 |Kashmiri | Urdu |
 
 <!-- Task 3 -->
-## Task 3
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Task 3 - Translations using IndicTrans
+Run the code **indicTrans.py** and the output is stored in directory **translated_indicTrans**
 
 <!-- Task 4 -->
-## Task 4
+## Task 4 - Translations using helsinki-nlp/opus-mt-mul-en 
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Run the code **helsinki.py** and the output is stored in directory **translated_helsinki**
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+<!-- Task 5 -->
+## Task 5 - Bleu and CHRF scores
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+|No. |language_code|bleu_indicTrans   |chrf_indicTrans   |bleu_helsinki     |chrf_helsinki     |
+|------|-------------|------------------|------------------|------------------|------------------|
+|0     |bn           |40.361451397114195|67.29100086720587 |15.008718294521943|38.459893968335855|
+|1     |gu           |40.09242647814781 |62.38047934152201 |17.519435117029424|41.67385242030943 |
+|2     |hi           |35.46963979966534 |61.12925209053163 |11.225427865557949|38.59222728367872 |
+|3     |kn           |32.147355804677694|56.59004522220443 |15.618151502462212|38.06799170855191 |
+|4     |ml           |37.8225649633747  |61.7368338997521  |15.2814778557767  |39.55520687508669 |
+|5     |mr           |36.618912232159545|61.060112673233135|15.732443365648534|40.030517925746025|
+|6     |or           |40.61712977226381 |64.53967600298299 |11.310679447675124|36.57590226441299 |
+|7     |pa           |33.19827639988097 |56.28109096317498 |16.424478002794018|40.2022064113979  |
+|8     |ta           |32.618353590741094|55.570154385196666|14.990324396869909|38.452540317035634|
+|9     |te           |39.97781730506786 |62.885759163173674|20.18320840530373 |43.50483959356902 |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
 
