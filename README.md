@@ -114,6 +114,7 @@ Run the code **helsinki.py** and the output is stored in directory **translated_
 
 <!-- Task 5 -->
 ## Task 5 - Bleu and CHRF scores
+Run  **calculate_metrics.py** to get the CHRF and BLEU scores.
 
 |No. |language_code|bleu_indicTrans   |chrf_indicTrans   |bleu_helsinki     |chrf_helsinki     |
 |------|-------------|------------------|------------------|------------------|------------------|
