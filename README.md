@@ -41,10 +41,10 @@ Here is a list of all webpages scraped:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Assuming you have pip and python installed,
+Assuming you have pip, python, pandas and numpy installed,
 1. Clone the repository
   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Srija616/translationTask.git
    ```
  2. Install the requirements:
  ```sh
@@ -54,30 +54,32 @@ Assuming you have pip and python installed,
  ```sh
    bash script.sh
    ```
- Note: After cloning indicTrans, please add __init__.py file in the indicTrans directory. Also change the import statement in indicTrans\inference\engine.py: from  ```inference.custom_interactive import Translator``` to ```from indicTrans.inference.custom_interactive import Translator```
+ Note: After cloning indicTrans, please add __init__.py file in the indicTrans directory. Also change the import statement in indicTrans\inference\engine.py:   ```from inference.custom_interactive import Translator``` to ```from indicTrans.inference.custom_interactive import Translator```
 
 <!-- Task 1 -->
 ## Task 1 - Downloading the data
 
 After installing the requirements, run the **web_scraper.py** file. The web_scraper.py module extracts data from [PoshanTracker] (https://www.poshantracker.in/) and its internally linked webpages.
+
 The extracted data is divided into three sets:
-1. Data stored in raw_data - it consists of csv files in the format en-indiclang. raw_data is cleaned manually (or with a small script - **align.py**) to align the data. Using **cleaning.py**, the data is finally processed in Task 2 to remove duplicates and data from other languages (especially separating English data from Indic data) </br>
-Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te']
-2. **unsupported_clean**: For languages that are not supported by fasttext-langdetect, data is cleaned to remove duplicates, English text and text with less than 2 characters.</br>
-Languages: ['as', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni', 'sat', 'ur', 'ks']
-3. **supported_clean**: For languages supported by fasttext-langdetect and also in the common_supported languages (i.e. translation is supported by both indicTrans and Helsinki), monolingual cleaned data is added here. </br>
-Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te', 'en']
+1. **raw_data** - it consists of **bilingual** csv files in the format en-indiclang. raw_data is cleaned manually (or with a small script - **align.py**) to align the data. Using **cleaning.py**, the data is finally processed in Task 2 to remove duplicates and data from other languages (especially separating English data from Indic data) </br>
+Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] i.e. [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Panjabi, Tamil, Telugu]
+2. **unsupported_clean**: For languages that are not supported by fasttext-langdetect, **monolingual data** is cleaned to remove duplicates, English text and text with less than 2 characters.</br>
+Languages: ['as', 'ne', 'doi', 'kok', 'sd', 'brx', 'mai', 'mni', 'sat', 'ur', 'ks'] i.e. [Assamese, Nepali, Dogri, Konkani, Sindhi, Bodo, Maithili, Manipuri, Santhali, Urdu, Kashmiri]
+3. **supported_clean**: For languages supported by fasttext-langdetect and also in the common_supported languages (i.e. translation is supported by both indicTrans and Helsinki), **monolingual** cleaned data is added here. </br>
+Languages: ['bn', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te', 'en'] i.e. [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Panjabi, Tamil, Telugu, English]
 
 <!-- Task 2 -->
 ## Task 2 - Preprocessing data
-Input directory: **raw_data_new**  (It contains the output of Task 1 post processing)
+Input directory: **raw_data**  (It contains the output of Task 1 which is in turn processed semi-automated using align.py)
 Output directory: **raw_data_new** 
 After aligning the text in **raw_data**, clean the text using **cleaning.py**
 
-Aligning the text requires some manual effort because the data gets misaligned by a row or two and each language's data needs to be assessed manually to decide the indexes which need to be shifted up or below to align the English - Indic text. Once this is done with the help of **align.py**, the following two steps can be taken:
+Aligning the text requires some manual effort because the data gets misaligned by a row or two and each language's data needs to be assessed manually to decide the indexes which need to be shifted to align the English - Indic text. Once this is done with the help of **align.py**, the following two steps can be taken:
 
 1. Cleaning - Remove duplicates, remove data from other languages, remove data that is numeric or of length less than 2 characters.
-2. Language detection - Done only for languages supported by fasttext-langdetect.
+2. Language detection - Done for all languages irrespective of support with the **fasttext-langdetect** library. 
+**NOTE:** As evident, low resource languages that share script or word similarities with a high resource language, example, Maithili and Sindhi with Hindi or Konkani with Marathi, Manipuri with Bengali are detected as the high resource language. It is important to note that the library officially supports Sindhi and Maithili, yet fail to detect them correctly, even though complete data was provided for detection.
 
 |Language - original | Language - Detected |
 |----| ------------- | 
@@ -140,6 +142,9 @@ My observations on the translations:
 4. indicTrans adds certain character like %s or (s) before or after translations. While the translation itself is correct, but this could affect the Bleu and CHRF scores.
 5. There is a difference in the amount of data for each language which can affect the scores. This was due to differences during extraction of data from website.
 6. While absolute scores may not paint a correct picture, comparison of the scores for Helsinki and indicTrans is in sync with my own obeservations of data. IndicTrans is significantly better than Helsinki-NLP/opus-mt-mul-en.
+
+Observations for the project
+1. While cleaning data for each language was not difficult however ensuring that all data gets extracted from the website and aligning it with the English text was challenging and required looking at each csv individually. After manually cleaning a number of languages, I could see patterns and guesstimate the indices and text around which the alignment could have gone wrong. I have not delved deeper into why this was particularly happening in some of the languages (since the errors were not consistent across the languages), looking at how the website adds these data could help.
 
 
 
