@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 import multiprocessing
 import os
@@ -8,7 +11,7 @@ import config
 import utils
 from bs4 import BeautifulSoup
 import pandas as pd
-import utils
+import time
 import fasttext
 
 fasttext.FastText.eprint = lambda x: None # added to suppress an unnecessary warning
@@ -49,7 +52,7 @@ def extract_text_data(driver, url, visited_urls, url_main):
         driver.implicitly_wait(5)
         try:
             if href.startswith("/"): # only follow internal links to get all data
-                data = extract_text_data(driver, url_main+href[1:], visited_urls, url_main)
+                data = extract_text_data(driver, url_main + href, visited_urls, url_main)
                 if (data != ""):
                         text_data = text_data + "\n "+ (data)
         except Exception as e:
@@ -68,17 +71,30 @@ def get_language_driver(language, driver, url):
     
     Output
     driver: Returns the driver to the website
-    '''    
+    ''' 
+    
     driver.get(url)
+    driver.implicitly_wait(5)
+    try:
+        dropdown = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']") # find the dropdown menu
+    except:
+        time.sleep(20)
+        driver.refresh()
+        driver.get(url)
+        driver.implicitly_wait(5)
+        dropdown = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']") # find the dropdown menu
+    
+    # if the line 99 still throws an error, it will be handled by the try-except block of caller.
+    
+    driver.execute_script("arguments[0].style.display = 'block';", dropdown) # bring the dropdown menu on page
     driver.implicitly_wait(10)
-    element = driver.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']")
-    driver.execute_script("arguments[0].style.display = 'block';", element)  # bring the element of dropdown-menu visible
-    driver.implicitly_wait(10)
-    button = driver.find_element('xpath',"//button[text()='{}']".format(language))
-    driver.implicitly_wait(10)
-    ActionChains(driver).move_to_element(button).click(button).perform()
-    driver.implicitly_wait(10)
+    dropdown.click()
+    option = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[text()='{}']".format(language)))  # get the option to be clicked
+    )
+    option.click()
     return driver
+
 
 def process_language(args):
     '''
@@ -93,30 +109,32 @@ def process_language(args):
             therefore only numeric strings and duplicates are removed.
         c. If the language is common to both our models (indicTrans and opus-mt-mul-en),
             we have kept a copy (split_text), without any transformations which is directly used for creating the parallel data
+    
     Arguments:
     language (string): The language for website to be scraped.
     driver (ChromeDriver): To interact with the browser
     url (string): The url of website to be scraped
     url_main (string): The homepage of the website
     
-    Output
+    Output:
     driver (ChromeDriver): Returns the driver to the website
     '''   
     lang, language_isocode, url, url_main = args
     options = Options()
+    options.headless = True  # to run the code in background, without opening a browser window
     options.add_experimental_option('excludeSwitches', ['enable-logging']) # to remove a USB related warning message
     driver = webdriver.Chrome(options=options)
-
+    print (f"Processing text for  {language_isocode}")
+    
     try:
-        get_language_driver(lang, driver, url) 
+        driver = get_language_driver(lang, driver, url) 
     except:
-        print (f"Unable to get a language driver")
-        return  []
+        print (f"Unable to get a language driver for {language_isocode}, possibly you have sent too many get requests in a short time and getting HTTP 429 error")
+        return []
     
     visited_urls = set()
     all_text = extract_text_data(driver, url, visited_urls, url_main) # all_text is a string
     driver.quit()
-    print (f"Processing text for  {language_isocode}")
     
     # common_supported_languages is intersection of languages supported by both indicTrans and Helsinki - which are also supported by indicNLP library
     if language_isocode in config.common_supported_languages: 
@@ -124,18 +142,17 @@ def process_language(args):
     else:
         split_text = all_text.split("\n")
     
-    split_text_new = split_text
-    print (f"number of sentences found: {len(split_text)}")
+    print (f"number of sentences found for {language_isocode}: {len(split_text)}")
 
     if language_isocode in config.common_supported_languages: # supported by fastText because we use the detect function
-        text_list = utils.remove_other_languages(split_text_new, language_isocode)
+        text_list = utils.remove_other_languages(split_text, language_isocode)
         text_list = utils.clean_data(text_list)
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
         save_data("clean_supported", language_isocode + ".csv", text_list)
         
     else:
-        text_list = utils.clean_data(split_text_new) # cannot remove other languages because the text language itself is not supported
+        text_list = utils.clean_data(split_text) # cannot remove other languages because the text language itself is not supported
         text_list = pd.DataFrame({'data': text_list, 'language': language_isocode})
         text_list.drop_duplicates(keep = 'first', inplace= True, ignore_index= True)
         save_data("clean_unsupported", language_isocode + ".csv", text_list)
@@ -161,18 +178,20 @@ def get_all_data(url, directory):
     if len(config.languages) != 0:
         lang_dict = dict(zip(config.languages, config.language_codes)) # key: language on website, language_codes = iso_code for the language
         languages = [lang_dict[lang] for lang in config.languages] # list of all language codes to be used
-        num_processes = min(os.cpu_count(), 2)
-        with multiprocessing.Pool(processes=num_processes) as pool:
-            data = pool.map(process_language, [(lang, lang_dict[lang], url, url_main) for lang in config.languages]) #get all data from websites.
+        num_processes = min(os.cpu_count(), config.default_num_processes)
+        print (f"Number of processes: {num_processes}")
         
-        eng = "en"
+        with multiprocessing.Pool(processes=num_processes) as pool:
+            data = pool.map(process_language, [(lang, lang_dict[lang], url, url_main) for lang in config.languages]) # get all data from websites.
+        
+        eng = 'en'
         if eng in languages:
         # code block to save the extracted data in csv files
-            index_en = languages.index('en')
+            index_en = languages.index(eng)
             df_en=pd.DataFrame(data=data[index_en],columns=[languages[index_en]])
             
             for i in  range(len(languages)):
-                if languages[i] != 'en':
+                if languages[i] != eng:
                     df_temp = pd.DataFrame(data=data[i],columns=[languages[i]])
                     df = pd.concat([df_en, df_temp], axis=1)
                     file = "en_" + languages[i] + ".csv"
