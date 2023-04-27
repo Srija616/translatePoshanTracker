@@ -1,8 +1,8 @@
-url_main = "https://www.poshantracker.in/"
+url_main = "https://www.poshantracker.in"
 raw_data_directory = "raw_data"
 raw_data_new_directory = "raw_data_new"
 unsupported_directory = "clean_unsupported"
-default_num_processes = 4
+default_num_processes = 2
 
 languages = ['English', 'हिंदी', 'ગુજરાતી', 'મરાઠી', 'ಕನ್ನಡ', 'മലയാളം', 'தமிழ்', 'తెలుగు', 'বাংলা', 'অসমীয়া', 'ਪੰਜਾਬੀ', 'ଓଡ଼ିଆ', 'नेपाली', 'डोगरी', 'कोंकणी',
              'सिंधी', 'बोडो', 'मैथिली', 'মণিপুরী', 'संथाली', 'اردو', 'کٲشُر']
